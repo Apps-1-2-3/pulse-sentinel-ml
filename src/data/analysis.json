@@ -1,0 +1,244 @@
+{
+  "features": [
+    "vibration_g",
+    "strain_microstrain",
+    "temperature_c",
+    "displacement_mm"
+  ],
+  "missing_values": {
+    "vibration_g": 19,
+    "strain_microstrain": 15,
+    "temperature_c": 20,
+    "displacement_mm": 14
+  },
+  "describe": {
+    "vibration_g": {
+      "count": 3933.0,
+      "mean": 0.1216,
+      "std": 0.0431,
+      "min": 0.0454,
+      "25%": 0.0909,
+      "50%": 0.1112,
+      "75%": 0.138,
+      "max": 0.3048
+    },
+    "strain_microstrain": {
+      "count": 3933.0,
+      "mean": 278.9128,
+      "std": 69.1018,
+      "min": 169.877,
+      "25%": 224.301,
+      "50%": 267.832,
+      "75%": 316.317,
+      "max": 524.278
+    },
+    "temperature_c": {
+      "count": 3933.0,
+      "mean": 24.8399,
+      "std": 5.2187,
+      "min": 10.956,
+      "25%": 21.124,
+      "50%": 24.728,
+      "75%": 28.967,
+      "max": 37.167
+    },
+    "displacement_mm": {
+      "count": 3933.0,
+      "mean": 1.926,
+      "std": 0.4566,
+      "min": 1.0985,
+      "25%": 1.5498,
+      "50%": 1.8555,
+      "75%": 2.2317,
+      "max": 3.7223
+    }
+  },
+  "metrics": {
+    "vibration_g": {
+      "mean": 0.1216469921179761,
+      "median": 0.11118,
+      "variance": 0.0018576490387885952,
+      "std": 0.043100452883799205,
+      "rms": 0.12905490074560583,
+      "min": 0.04542,
+      "max": 0.30478
+    },
+    "strain_microstrain": {
+      "mean": 278.91279379608443,
+      "median": 267.832,
+      "variance": 4775.062252438395,
+      "std": 69.10182524679355,
+      "rms": 287.34333939349943,
+      "min": 169.877,
+      "max": 524.278
+    },
+    "temperature_c": {
+      "mean": 24.839931604373252,
+      "median": 24.728,
+      "variance": 27.23509665478168,
+      "std": 5.218725577646489,
+      "rms": 25.382087660410498,
+      "min": 10.956,
+      "max": 37.167
+    },
+    "displacement_mm": {
+      "mean": 1.9259627256547167,
+      "median": 1.8555,
+      "variance": 0.20851628019724847,
+      "std": 0.4566358288584553,
+      "rms": 1.9793422351129701,
+      "min": 1.0985,
+      "max": 3.7223
+    }
+  },
+  "correlation": [
+    [
+      1.0,
+      0.8915,
+      0.0409,
+      0.8339
+    ],
+    [
+      0.8915,
+      1.0,
+      0.2501,
+      0.9323
+    ],
+    [
+      0.0409,
+      0.2501,
+      1.0,
+      0.265
+    ],
+    [
+      0.8339,
+      0.9323,
+      0.265,
+      1.0
+    ]
+  ],
+  "preview": [
+    {
+      "timestamp": "2025-01-01 00:00:00",
+      "vibration_g": 0.08504,
+      "strain_microstrain": 182.172,
+      "temperature_c": 12.366,
+      "displacement_mm": 1.2507,
+      "damage_class": 0
+    },
+    {
+      "timestamp": "2025-01-01 01:00:00",
+      "vibration_g": 0.09276,
+      "strain_microstrain": 184.657,
+      "temperature_c": 10.956,
+      "displacement_mm": 1.2594,
+      "damage_class": 0
+    },
+    {
+      "timestamp": "2025-01-01 02:00:00",
+      "vibration_g": 0.0854,
+      "strain_microstrain": 190.542,
+      "temperature_c": 13.704,
+      "displacement_mm": 1.1984,
+      "damage_class": 0
+    },
+    {
+      "timestamp": "2025-01-01 03:00:00",
+      "vibration_g": 0.10961,
+      "strain_microstrain": 184.429,
+      "temperature_c": 14.886,
+      "displacement_mm": 1.2153,
+      "damage_class": 0
+    },
+    {
+      "timestamp": "2025-01-01 05:00:00",
+      "vibration_g": 0.08902,
+      "strain_microstrain": 198.371,
+      "temperature_c": 14.884,
+      "displacement_mm": 1.4401,
+      "damage_class": 0
+    },
+    {
+      "timestamp": "2025-01-01 06:00:00",
+      "vibration_g": 0.10283,
+      "strain_microstrain": 248.366,
+      "temperature_c": 18.153,
+      "displacement_mm": 1.6774,
+      "damage_class": 0
+    },
+    {
+      "timestamp": "2025-01-01 07:00:00",
+      "vibration_g": 0.12827,
+      "strain_microstrain": 281.12,
+      "temperature_c": 19.173,
+      "displacement_mm": 2.1659,
+      "damage_class": 0
+    },
+    {
+      "timestamp": "2025-01-01 08:00:00",
+      "vibration_g": 0.11994,
+      "strain_microstrain": 305.139,
+      "temperature_c": 20.98,
+      "displacement_mm": 2.1942,
+      "damage_class": 0
+    },
+    {
+      "timestamp": "2025-01-01 09:00:00",
+      "vibration_g": 0.13663,
+      "strain_microstrain": 280.068,
+      "temperature_c": 21.219,
+      "displacement_mm": 2.2113,
+      "damage_class": 0
+    },
+    {
+      "timestamp": "2025-01-01 10:00:00",
+      "vibration_g": 0.11098,
+      "strain_microstrain": 263.009,
+      "temperature_c": 24.251,
+      "displacement_mm": 1.8873,
+      "damage_class": 0
+    },
+    {
+      "timestamp": "2025-01-01 11:00:00",
+      "vibration_g": 0.0958,
+      "strain_microstrain": 220.08,
+      "temperature_c": 24.729,
+      "displacement_mm": 1.6722,
+      "damage_class": 0
+    },
+    {
+      "timestamp": "2025-01-01 12:00:00",
+      "vibration_g": 0.0937,
+      "strain_microstrain": 213.428,
+      "temperature_c": 24.079,
+      "displacement_mm": 1.4947,
+      "damage_class": 0
+    },
+    {
+      "timestamp": "2025-01-01 13:00:00",
+      "vibration_g": 0.10416,
+      "strain_microstrain": 203.001,
+      "temperature_c": 25.148,
+      "displacement_mm": 1.2809,
+      "damage_class": 0
+    },
+    {
+      "timestamp": "2025-01-01 14:00:00",
+      "vibration_g": 0.08751,
+      "strain_microstrain": 206.764,
+      "temperature_c": 23.757,
+      "displacement_mm": 1.4159,
+      "damage_class": 0
+    },
+    {
+      "timestamp": "2025-01-01 15:00:00",
+      "vibration_g": 0.09137,
+      "strain_microstrain": 229.801,
+      "temperature_c": 21.211,
+      "displacement_mm": 1.5858,
+      "damage_class": 0
+    }
+  ],
+  "total_records": 4000,
+  "clean_records": 3933
+}

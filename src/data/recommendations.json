@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    {
+      "title": "Immediate engineering inspection recommended",
+      "detail": "Health score is below 40. Restrict load and dispatch a structural engineer on-site."
+    },
+    {
+      "title": "Inspect for crack formation in tension members",
+      "detail": "Strain is the dominant SHAP contributor. Increased strain readings can indicate micro-crack propagation or section loss."
+    },
+    {
+      "title": "Schedule targeted inspection: vibration g",
+      "detail": "Vibration G is the second strongest contributor in the global SHAP analysis."
+    }
+  ],
+  "top_features": [
+    "strain_microstrain",
+    "vibration_g",
+    "temperature_c",
+    "displacement_mm"
+  ]
+}
