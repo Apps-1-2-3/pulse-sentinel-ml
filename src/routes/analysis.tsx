@@ -65,8 +65,8 @@ function AnalysisPage() {
                 <div key={f} className="mono text-[10px] text-muted-foreground text-center px-1 pb-1 truncate">{f.split("_")[0]}</div>
               ))}
               {features.map((f, i) => (
-                <>
-                  <div key={`l-${f}`} className="mono text-[10px] text-muted-foreground pr-2 py-1 truncate text-right">{f.split("_")[0]}</div>
+                <Fragment key={`row-${f}`}>
+                  <div className="mono text-[10px] text-muted-foreground pr-2 py-1 truncate text-right">{f.split("_")[0]}</div>
                   {a.correlation[i].map((v: number, j: number) => {
                     const intensity = Math.abs(v);
                     const bg = v >= 0
@@ -79,7 +79,7 @@ function AnalysisPage() {
                       </div>
                     );
                   })}
-                </>
+                </Fragment>
               ))}
             </div>
           </Panel>
