@@ -63,8 +63,8 @@ function DamagePage() {
               {d.class_names.map((c, i) => {
                 const rowMax = Math.max(...d.confusion_matrix[i]);
                 return (
-                  <>
-                    <div key={`l-${c}`} className="mono text-[10px] text-muted-foreground pr-2 py-2 text-right truncate">{c.split(" ")[0]}</div>
+                  <Fragment key={`cm-${c}`}>
+                    <div className="mono text-[10px] text-muted-foreground pr-2 py-2 text-right truncate">{c.split(" ")[0]}</div>
                     {d.confusion_matrix[i].map((v: number, j: number) => {
                       const intensity = rowMax > 0 ? v / rowMax : 0;
                       const isDiag = i === j;
@@ -78,7 +78,7 @@ function DamagePage() {
                         </div>
                       );
                     })}
-                  </>
+                  </Fragment>
                 );
               })}
             </div>
