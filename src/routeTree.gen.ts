@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as XaiRouteImport } from './routes/xai'
 import { Route as RiskRouteImport } from './routes/risk'
+import { Route as MaintenanceRouteImport } from './routes/maintenance'
 import { Route as DamageRouteImport } from './routes/damage'
 import { Route as AnomalyRouteImport } from './routes/anomaly'
 import { Route as AnalysisRouteImport } from './routes/analysis'
@@ -24,6 +25,11 @@ const XaiRoute = XaiRouteImport.update({
 const RiskRoute = RiskRouteImport.update({
   id: '/risk',
   path: '/risk',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MaintenanceRoute = MaintenanceRouteImport.update({
+  id: '/maintenance',
+  path: '/maintenance',
   getParentRoute: () => rootRouteImport,
 } as any)
 const DamageRoute = DamageRouteImport.update({
@@ -52,6 +58,7 @@ export interface FileRoutesByFullPath {
   '/analysis': typeof AnalysisRoute
   '/anomaly': typeof AnomalyRoute
   '/damage': typeof DamageRoute
+  '/maintenance': typeof MaintenanceRoute
   '/risk': typeof RiskRoute
   '/xai': typeof XaiRoute
 }
@@ -60,6 +67,7 @@ export interface FileRoutesByTo {
   '/analysis': typeof AnalysisRoute
   '/anomaly': typeof AnomalyRoute
   '/damage': typeof DamageRoute
+  '/maintenance': typeof MaintenanceRoute
   '/risk': typeof RiskRoute
   '/xai': typeof XaiRoute
 }
@@ -69,15 +77,38 @@ export interface FileRoutesById {
   '/analysis': typeof AnalysisRoute
   '/anomaly': typeof AnomalyRoute
   '/damage': typeof DamageRoute
+  '/maintenance': typeof MaintenanceRoute
   '/risk': typeof RiskRoute
   '/xai': typeof XaiRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/analysis' | '/anomaly' | '/damage' | '/risk' | '/xai'
+  fullPaths:
+    | '/'
+    | '/analysis'
+    | '/anomaly'
+    | '/damage'
+    | '/maintenance'
+    | '/risk'
+    | '/xai'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/analysis' | '/anomaly' | '/damage' | '/risk' | '/xai'
-  id: '__root__' | '/' | '/analysis' | '/anomaly' | '/damage' | '/risk' | '/xai'
+  to:
+    | '/'
+    | '/analysis'
+    | '/anomaly'
+    | '/damage'
+    | '/maintenance'
+    | '/risk'
+    | '/xai'
+  id:
+    | '__root__'
+    | '/'
+    | '/analysis'
+    | '/anomaly'
+    | '/damage'
+    | '/maintenance'
+    | '/risk'
+    | '/xai'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -85,6 +116,7 @@ export interface RootRouteChildren {
   AnalysisRoute: typeof AnalysisRoute
   AnomalyRoute: typeof AnomalyRoute
   DamageRoute: typeof DamageRoute
+  MaintenanceRoute: typeof MaintenanceRoute
   RiskRoute: typeof RiskRoute
   XaiRoute: typeof XaiRoute
 }
@@ -103,6 +135,13 @@ declare module '@tanstack/react-router' {
       path: '/risk'
       fullPath: '/risk'
       preLoaderRoute: typeof RiskRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/maintenance': {
+      id: '/maintenance'
+      path: '/maintenance'
+      fullPath: '/maintenance'
+      preLoaderRoute: typeof MaintenanceRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/damage': {
@@ -141,6 +180,7 @@ const rootRouteChildren: RootRouteChildren = {
   AnalysisRoute: AnalysisRoute,
   AnomalyRoute: AnomalyRoute,
   DamageRoute: DamageRoute,
+  MaintenanceRoute: MaintenanceRoute,
   RiskRoute: RiskRoute,
   XaiRoute: XaiRoute,
 }
