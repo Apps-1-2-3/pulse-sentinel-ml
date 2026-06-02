@@ -9,10 +9,16 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as DamageRouteImport } from './routes/damage'
 import { Route as AnomalyRouteImport } from './routes/anomaly'
 import { Route as AnalysisRouteImport } from './routes/analysis'
 import { Route as IndexRouteImport } from './routes/index'
 
+const DamageRoute = DamageRouteImport.update({
+  id: '/damage',
+  path: '/damage',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AnomalyRoute = AnomalyRouteImport.update({
   id: '/anomaly',
   path: '/anomaly',
@@ -33,34 +39,45 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/analysis': typeof AnalysisRoute
   '/anomaly': typeof AnomalyRoute
+  '/damage': typeof DamageRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/analysis': typeof AnalysisRoute
   '/anomaly': typeof AnomalyRoute
+  '/damage': typeof DamageRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/analysis': typeof AnalysisRoute
   '/anomaly': typeof AnomalyRoute
+  '/damage': typeof DamageRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/analysis' | '/anomaly'
+  fullPaths: '/' | '/analysis' | '/anomaly' | '/damage'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/analysis' | '/anomaly'
-  id: '__root__' | '/' | '/analysis' | '/anomaly'
+  to: '/' | '/analysis' | '/anomaly' | '/damage'
+  id: '__root__' | '/' | '/analysis' | '/anomaly' | '/damage'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AnalysisRoute: typeof AnalysisRoute
   AnomalyRoute: typeof AnomalyRoute
+  DamageRoute: typeof DamageRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/damage': {
+      id: '/damage'
+      path: '/damage'
+      fullPath: '/damage'
+      preLoaderRoute: typeof DamageRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/anomaly': {
       id: '/anomaly'
       path: '/anomaly'
@@ -89,6 +106,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AnalysisRoute: AnalysisRoute,
   AnomalyRoute: AnomalyRoute,
+  DamageRoute: DamageRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
