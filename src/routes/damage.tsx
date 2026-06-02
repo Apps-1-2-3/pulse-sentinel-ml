@@ -42,7 +42,7 @@ function DamagePage() {
                 <CartesianGrid stroke={GRID} strokeDasharray="2 4" vertical={false} />
                 <XAxis dataKey="name" tick={{ fill: AXIS, fontSize: 10 }} />
                 <YAxis tick={{ fill: AXIS, fontSize: 10 }} domain={[0, 1]} />
-                <Tooltip contentStyle={{ background: "var(--color-popover)", border: "1px solid var(--color-border)", borderRadius: 8, fontSize: 12 }} formatter={(v: number) => (v * 100).toFixed(2) + "%"} />
+                <Tooltip contentStyle={{ background: "var(--color-popover)", border: "1px solid var(--color-border)", borderRadius: 8, fontSize: 12 }} formatter={(v) => (Number(v) * 100).toFixed(2) + "%"} />
                 <Bar dataKey="value" radius={[4, 4, 0, 0]}>
                   {probs.map((_, i) => <Cell key={i} fill={classColors[i]} />)}
                 </Bar>
