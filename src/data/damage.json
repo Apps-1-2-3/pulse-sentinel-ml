@@ -1,0 +1,63 @@
+{
+  "class_names": [
+    "Healthy",
+    "Minor Damage",
+    "Moderate Damage",
+    "Severe Damage"
+  ],
+  "metrics": {
+    "accuracy": 0.875,
+    "precision": 0.8719855247999635,
+    "recall": 0.875,
+    "f1": 0.8732242219779175
+  },
+  "confusion_matrix": [
+    [
+      541,
+      21,
+      5,
+      0
+    ],
+    [
+      21,
+      125,
+      26,
+      0
+    ],
+    [
+      17,
+      15,
+      78,
+      11
+    ],
+    [
+      0,
+      0,
+      7,
+      117
+    ]
+  ],
+  "class_distribution": {
+    "Healthy": 2265,
+    "Minor Damage": 687,
+    "Moderate Damage": 485,
+    "Severe Damage": 496
+  },
+  "current_prediction": {
+    "class_index": 3,
+    "class_name": "Severe Damage",
+    "confidence": 0.9962278604507446,
+    "probabilities": {
+      "Healthy": 3.424265014473349e-05,
+      "Minor Damage": 4.342627289588563e-05,
+      "Moderate Damage": 0.0036944893654435873,
+      "Severe Damage": 0.9962278604507446
+    }
+  },
+  "feature_importance": {
+    "vibration_g": 0.36265984177589417,
+    "strain_microstrain": 0.3287223279476166,
+    "temperature_c": 0.14731533825397491,
+    "displacement_mm": 0.16130250692367554
+  }
+}

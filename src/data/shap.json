@@ -1,0 +1,29 @@
+{
+  "features": [
+    "vibration_g",
+    "strain_microstrain",
+    "temperature_c",
+    "displacement_mm"
+  ],
+  "global_importance": [
+    1.5620356798171997,
+    1.6947987079620361,
+    0.8236432075500488,
+    0.7597547173500061
+  ],
+  "local_shap_values": [
+    3.624049663543701,
+    1.3916194438934326,
+    0.07857827842235565,
+    0.7331425547599792
+  ],
+  "local_feature_values": [
+    0.23555,
+    393.455,
+    23.541,
+    2.5229
+  ],
+  "base_value": -1.0403203964233398,
+  "predicted_class": "Severe Damage",
+  "textual_explanation": "The model predicts Severe Damage primarily because vibration and strain contribute most to the prediction."
+}

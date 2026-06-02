@@ -1,0 +1,3938 @@
+{
+  "series": [
+    {
+      "t": "2025-01-01T00:00:00",
+      "vibration": 0.08504,
+      "strain": 182.172,
+      "temperature": 12.366,
+      "displacement": 1.2507
+    },
+    {
+      "t": "2025-01-01T08:00:00",
+      "vibration": 0.11994,
+      "strain": 305.139,
+      "temperature": 20.98,
+      "displacement": 2.1942
+    },
+    {
+      "t": "2025-01-01T15:00:00",
+      "vibration": 0.09137,
+      "strain": 229.801,
+      "temperature": 21.211,
+      "displacement": 1.5858
+    },
+    {
+      "t": "2025-01-01T22:00:00",
+      "vibration": 0.06906,
+      "strain": 196.15,
+      "temperature": 14.271,
+      "displacement": 1.4219
+    },
+    {
+      "t": "2025-01-02T05:00:00",
+      "vibration": 0.09507,
+      "strain": 215.076,
+      "temperature": 17.136,
+      "displacement": 1.4923
+    },
+    {
+      "t": "2025-01-02T12:00:00",
+      "vibration": 0.11184,
+      "strain": 211.659,
+      "temperature": 24.035,
+      "displacement": 1.4947
+    },
+    {
+      "t": "2025-01-02T19:00:00",
+      "vibration": 0.10531,
+      "strain": 268.699,
+      "temperature": 16.898,
+      "displacement": 2.0838
+    },
+    {
+      "t": "2025-01-03T02:00:00",
+      "vibration": 0.09279,
+      "strain": 185.053,
+      "temperature": 13.495,
+      "displacement": 1.1924
+    },
+    {
+      "t": "2025-01-03T09:00:00",
+      "vibration": 0.13119,
+      "strain": 304.401,
+      "temperature": 24.381,
+      "displacement": 2.1522
+    },
+    {
+      "t": "2025-01-03T16:00:00",
+      "vibration": 0.10882,
+      "strain": 258.238,
+      "temperature": 22.198,
+      "displacement": 1.7795
+    },
+    {
+      "t": "2025-01-04T00:00:00",
+      "vibration": 0.08008,
+      "strain": 169.877,
+      "temperature": 11.413,
+      "displacement": 1.2147
+    },
+    {
+      "t": "2025-01-04T07:00:00",
+      "vibration": 0.11651,
+      "strain": 301.867,
+      "temperature": 19.698,
+      "displacement": 2.2264
+    },
+    {
+      "t": "2025-01-04T15:00:00",
+      "vibration": 0.07213,
+      "strain": 229.839,
+      "temperature": 22.774,
+      "displacement": 1.5882
+    },
+    {
+      "t": "2025-01-04T22:00:00",
+      "vibration": 0.09196,
+      "strain": 177.637,
+      "temperature": 11.295,
+      "displacement": 1.3489
+    },
+    {
+      "t": "2025-01-05T05:00:00",
+      "vibration": 0.09476,
+      "strain": 216.603,
+      "temperature": 18.694,
+      "displacement": 1.5548
+    },
+    {
+      "t": "2025-01-05T12:00:00",
+      "vibration": 0.10308,
+      "strain": 201.379,
+      "temperature": 25.696,
+      "displacement": 1.6464
+    },
+    {
+      "t": "2025-01-05T19:00:00",
+      "vibration": 0.11533,
+      "strain": 277.46,
+      "temperature": 16.5,
+      "displacement": 1.9868
+    },
+    {
+      "t": "2025-01-06T02:00:00",
+      "vibration": 0.07012,
+      "strain": 180.52,
+      "temperature": 13.927,
+      "displacement": 1.3334
+    },
+    {
+      "t": "2025-01-06T09:00:00",
+      "vibration": 0.1109,
+      "strain": 287.673,
+      "temperature": 21.99,
+      "displacement": 2.1391
+    },
+    {
+      "t": "2025-01-06T16:00:00",
+      "vibration": 0.12324,
+      "strain": 250.049,
+      "temperature": 22.236,
+      "displacement": 1.8635
+    },
+    {
+      "t": "2025-01-06T23:00:00",
+      "vibration": 0.07818,
+      "strain": 189.863,
+      "temperature": 13.385,
+      "displacement": 1.3657
+    },
+    {
+      "t": "2025-01-07T07:00:00",
+      "vibration": 0.14009,
+      "strain": 285.175,
+      "temperature": 19.341,
+      "displacement": 2.0321
+    },
+    {
+      "t": "2025-01-07T14:00:00",
+      "vibration": 0.09808,
+      "strain": 211.803,
+      "temperature": 23.628,
+      "displacement": 1.4146
+    },
+    {
+      "t": "2025-01-07T23:00:00",
+      "vibration": 0.07045,
+      "strain": 177.835,
+      "temperature": 13.697,
+      "displacement": 1.3273
+    },
+    {
+      "t": "2025-01-08T06:00:00",
+      "vibration": 0.09379,
+      "strain": 249.664,
+      "temperature": 17.669,
+      "displacement": 1.7021
+    },
+    {
+      "t": "2025-01-08T13:00:00",
+      "vibration": 0.08444,
+      "strain": 200.915,
+      "temperature": 25.261,
+      "displacement": 1.377
+    },
+    {
+      "t": "2025-01-08T20:00:00",
+      "vibration": 0.09791,
+      "strain": 244.19,
+      "temperature": 14.56,
+      "displacement": 1.779
+    },
+    {
+      "t": "2025-01-09T03:00:00",
+      "vibration": 0.07263,
+      "strain": 181.606,
+      "temperature": 14.056,
+      "displacement": 1.2965
+    },
+    {
+      "t": "2025-01-09T10:00:00",
+      "vibration": 0.11313,
+      "strain": 264.458,
+      "temperature": 24.678,
+      "displacement": 2.0354
+    },
+    {
+      "t": "2025-01-09T17:00:00",
+      "vibration": 0.11851,
+      "strain": 296.336,
+      "temperature": 20.525,
+      "displacement": 2.0343
+    },
+    {
+      "t": "2025-01-10T01:00:00",
+      "vibration": 0.08774,
+      "strain": 179.871,
+      "temperature": 15.352,
+      "displacement": 1.3167
+    },
+    {
+      "t": "2025-01-10T08:00:00",
+      "vibration": 0.12173,
+      "strain": 315.205,
+      "temperature": 22.652,
+      "displacement": 2.2599
+    },
+    {
+      "t": "2025-01-10T15:00:00",
+      "vibration": 0.10118,
+      "strain": 226.205,
+      "temperature": 23.077,
+      "displacement": 1.7032
+    },
+    {
+      "t": "2025-01-10T22:00:00",
+      "vibration": 0.08439,
+      "strain": 191.62,
+      "temperature": 13.072,
+      "displacement": 1.3519
+    },
+    {
+      "t": "2025-01-11T05:00:00",
+      "vibration": 0.09239,
+      "strain": 210.72,
+      "temperature": 16.615,
+      "displacement": 1.6252
+    },
+    {
+      "t": "2025-01-11T12:00:00",
+      "vibration": 0.09124,
+      "strain": 217.163,
+      "temperature": 27.787,
+      "displacement": 1.6331
+    },
+    {
+      "t": "2025-01-11T19:00:00",
+      "vibration": 0.1182,
+      "strain": 281.938,
+      "temperature": 16.51,
+      "displacement": 2.019
+    },
+    {
+      "t": "2025-01-12T02:00:00",
+      "vibration": 0.07253,
+      "strain": 193.724,
+      "temperature": 14.873,
+      "displacement": 1.2921
+    },
+    {
+      "t": "2025-01-12T09:00:00",
+      "vibration": 0.14476,
+      "strain": 305.242,
+      "temperature": 26.637,
+      "displacement": 2.3024
+    },
+    {
+      "t": "2025-01-12T16:00:00",
+      "vibration": 0.12355,
+      "strain": 261.334,
+      "temperature": 23.458,
+      "displacement": 1.8555
+    },
+    {
+      "t": "2025-01-12T23:00:00",
+      "vibration": 0.07458,
+      "strain": 190.163,
+      "temperature": 14.15,
+      "displacement": 1.1268
+    },
+    {
+      "t": "2025-01-13T06:00:00",
+      "vibration": 0.10754,
+      "strain": 254.799,
+      "temperature": 19.767,
+      "displacement": 1.8274
+    },
+    {
+      "t": "2025-01-13T13:00:00",
+      "vibration": 0.09664,
+      "strain": 204.37,
+      "temperature": 24.006,
+      "displacement": 1.6515
+    },
+    {
+      "t": "2025-01-13T21:00:00",
+      "vibration": 0.06417,
+      "strain": 215.911,
+      "temperature": 17.887,
+      "displacement": 1.5569
+    },
+    {
+      "t": "2025-01-14T04:00:00",
+      "vibration": 0.09269,
+      "strain": 200.91,
+      "temperature": 17.299,
+      "displacement": 1.4048
+    },
+    {
+      "t": "2025-01-14T11:00:00",
+      "vibration": 0.09412,
+      "strain": 238.9,
+      "temperature": 26.916,
+      "displacement": 1.7333
+    },
+    {
+      "t": "2025-01-14T18:00:00",
+      "vibration": 0.15204,
+      "strain": 301.338,
+      "temperature": 22.033,
+      "displacement": 2.316
+    },
+    {
+      "t": "2025-01-15T01:00:00",
+      "vibration": 0.07636,
+      "strain": 185.081,
+      "temperature": 14.966,
+      "displacement": 1.3
+    },
+    {
+      "t": "2025-01-15T08:00:00",
+      "vibration": 0.12328,
+      "strain": 304.458,
+      "temperature": 25.326,
+      "displacement": 2.1557
+    },
+    {
+      "t": "2025-01-15T15:00:00",
+      "vibration": 0.07895,
+      "strain": 230.181,
+      "temperature": 25.645,
+      "displacement": 1.6406
+    },
+    {
+      "t": "2025-01-15T22:00:00",
+      "vibration": 0.07996,
+      "strain": 203.93,
+      "temperature": 14.155,
+      "displacement": 1.4006
+    },
+    {
+      "t": "2025-01-16T05:00:00",
+      "vibration": 0.10434,
+      "strain": 221.856,
+      "temperature": 20.778,
+      "displacement": 1.6342
+    },
+    {
+      "t": "2025-01-16T12:00:00",
+      "vibration": 0.07182,
+      "strain": 220.658,
+      "temperature": 27.582,
+      "displacement": 1.6069
+    },
+    {
+      "t": "2025-01-16T19:00:00",
+      "vibration": 0.10674,
+      "strain": 295.908,
+      "temperature": 18.451,
+      "displacement": 2.0593
+    },
+    {
+      "t": "2025-01-17T02:00:00",
+      "vibration": 0.07872,
+      "strain": 189.282,
+      "temperature": 16.051,
+      "displacement": 1.4276
+    },
+    {
+      "t": "2025-01-17T09:00:00",
+      "vibration": 0.11155,
+      "strain": 292.244,
+      "temperature": 25.513,
+      "displacement": 2.1619
+    },
+    {
+      "t": "2025-01-17T16:00:00",
+      "vibration": 0.10606,
+      "strain": 256.14,
+      "temperature": 23.504,
+      "displacement": 1.973
+    },
+    {
+      "t": "2025-01-17T23:00:00",
+      "vibration": 0.08568,
+      "strain": 179.325,
+      "temperature": 15.919,
+      "displacement": 1.3582
+    },
+    {
+      "t": "2025-01-18T06:00:00",
+      "vibration": 0.10467,
+      "strain": 256.721,
+      "temperature": 20.543,
+      "displacement": 1.739
+    },
+    {
+      "t": "2025-01-18T13:00:00",
+      "vibration": 0.09267,
+      "strain": 209.223,
+      "temperature": 25.676,
+      "displacement": 1.5362
+    },
+    {
+      "t": "2025-01-18T20:00:00",
+      "vibration": 0.10438,
+      "strain": 254.065,
+      "temperature": 16.226,
+      "displacement": 1.8604
+    },
+    {
+      "t": "2025-01-19T03:00:00",
+      "vibration": 0.09292,
+      "strain": 194.747,
+      "temperature": 16.081,
+      "displacement": 1.29
+    },
+    {
+      "t": "2025-01-19T10:00:00",
+      "vibration": 0.1062,
+      "strain": 274.459,
+      "temperature": 26.68,
+      "displacement": 2.06
+    },
+    {
+      "t": "2025-01-19T17:00:00",
+      "vibration": 0.12271,
+      "strain": 306.11,
+      "temperature": 23.062,
+      "displacement": 2.0452
+    },
+    {
+      "t": "2025-01-20T00:00:00",
+      "vibration": 0.07454,
+      "strain": 193.322,
+      "temperature": 16.504,
+      "displacement": 1.2469
+    },
+    {
+      "t": "2025-01-20T07:00:00",
+      "vibration": 0.11523,
+      "strain": 286.691,
+      "temperature": 20.278,
+      "displacement": 2.32
+    },
+    {
+      "t": "2025-01-20T14:00:00",
+      "vibration": 0.08903,
+      "strain": 220.738,
+      "temperature": 26.826,
+      "displacement": 1.5156
+    },
+    {
+      "t": "2025-01-20T21:00:00",
+      "vibration": 0.08651,
+      "strain": 223.321,
+      "temperature": 15.6,
+      "displacement": 1.4998
+    },
+    {
+      "t": "2025-01-21T04:00:00",
+      "vibration": 0.08604,
+      "strain": 200.658,
+      "temperature": 18.307,
+      "displacement": 1.3268
+    },
+    {
+      "t": "2025-01-21T11:00:00",
+      "vibration": 0.08188,
+      "strain": 248.635,
+      "temperature": 27.611,
+      "displacement": 1.638
+    },
+    {
+      "t": "2025-01-21T18:00:00",
+      "vibration": 0.13289,
+      "strain": 310.999,
+      "temperature": 18.986,
+      "displacement": 2.0819
+    },
+    {
+      "t": "2025-01-22T01:00:00",
+      "vibration": 0.10123,
+      "strain": 186.216,
+      "temperature": 15.089,
+      "displacement": 1.2663
+    },
+    {
+      "t": "2025-01-22T08:00:00",
+      "vibration": 0.14527,
+      "strain": 312.052,
+      "temperature": 24.656,
+      "displacement": 2.2307
+    },
+    {
+      "t": "2025-01-22T15:00:00",
+      "vibration": 0.07186,
+      "strain": 238.996,
+      "temperature": 27.734,
+      "displacement": 1.751
+    },
+    {
+      "t": "2025-01-22T22:00:00",
+      "vibration": 0.0825,
+      "strain": 199.367,
+      "temperature": 18.087,
+      "displacement": 1.4004
+    },
+    {
+      "t": "2025-01-23T05:00:00",
+      "vibration": 0.07472,
+      "strain": 222.904,
+      "temperature": 20.687,
+      "displacement": 1.5952
+    },
+    {
+      "t": "2025-01-23T12:00:00",
+      "vibration": 0.09815,
+      "strain": 221.021,
+      "temperature": 25.673,
+      "displacement": 1.5686
+    },
+    {
+      "t": "2025-01-23T19:00:00",
+      "vibration": 0.13755,
+      "strain": 298.47,
+      "temperature": 18.934,
+      "displacement": 1.9951
+    },
+    {
+      "t": "2025-01-24T02:00:00",
+      "vibration": 0.10349,
+      "strain": 197.382,
+      "temperature": 16.556,
+      "displacement": 1.4061
+    },
+    {
+      "t": "2025-01-24T09:00:00",
+      "vibration": 0.11382,
+      "strain": 307.892,
+      "temperature": 26.5,
+      "displacement": 2.2669
+    },
+    {
+      "t": "2025-01-24T16:00:00",
+      "vibration": 0.11435,
+      "strain": 257.431,
+      "temperature": 25.515,
+      "displacement": 1.9244
+    },
+    {
+      "t": "2025-01-25T00:00:00",
+      "vibration": 0.07122,
+      "strain": 180.385,
+      "temperature": 17.618,
+      "displacement": 1.4806
+    },
+    {
+      "t": "2025-01-25T07:00:00",
+      "vibration": 0.13809,
+      "strain": 285.252,
+      "temperature": 22.281,
+      "displacement": 2.2457
+    },
+    {
+      "t": "2025-01-25T14:00:00",
+      "vibration": 0.09564,
+      "strain": 211.517,
+      "temperature": 25.744,
+      "displacement": 1.511
+    },
+    {
+      "t": "2025-01-25T21:00:00",
+      "vibration": 0.09667,
+      "strain": 220.908,
+      "temperature": 18.747,
+      "displacement": 1.4934
+    },
+    {
+      "t": "2025-01-26T05:00:00",
+      "vibration": 0.09499,
+      "strain": 216.345,
+      "temperature": 21.268,
+      "displacement": 1.6107
+    },
+    {
+      "t": "2025-01-26T12:00:00",
+      "vibration": 0.08038,
+      "strain": 214.54,
+      "temperature": 26.463,
+      "displacement": 1.4838
+    },
+    {
+      "t": "2025-01-26T19:00:00",
+      "vibration": 0.12972,
+      "strain": 292.684,
+      "temperature": 22.36,
+      "displacement": 2.1081
+    },
+    {
+      "t": "2025-01-27T02:00:00",
+      "vibration": 0.07564,
+      "strain": 185.972,
+      "temperature": 16.638,
+      "displacement": 1.3858
+    },
+    {
+      "t": "2025-01-27T09:00:00",
+      "vibration": 0.1085,
+      "strain": 302.824,
+      "temperature": 24.246,
+      "displacement": 2.3342
+    },
+    {
+      "t": "2025-01-27T16:00:00",
+      "vibration": 0.12488,
+      "strain": 264.356,
+      "temperature": 23.534,
+      "displacement": 1.8533
+    },
+    {
+      "t": "2025-01-27T23:00:00",
+      "vibration": 0.07356,
+      "strain": 189.568,
+      "temperature": 14.455,
+      "displacement": 1.3257
+    },
+    {
+      "t": "2025-01-28T06:00:00",
+      "vibration": 0.10839,
+      "strain": 251.166,
+      "temperature": 23.187,
+      "displacement": 1.9148
+    },
+    {
+      "t": "2025-01-28T13:00:00",
+      "vibration": 0.07919,
+      "strain": 218.65,
+      "temperature": 28.257,
+      "displacement": 1.553
+    },
+    {
+      "t": "2025-01-28T21:00:00",
+      "vibration": 0.08327,
+      "strain": 210.355,
+      "temperature": 15.162,
+      "displacement": 1.4849
+    },
+    {
+      "t": "2025-01-29T04:00:00",
+      "vibration": 0.08992,
+      "strain": 191.841,
+      "temperature": 22.495,
+      "displacement": 1.5678
+    },
+    {
+      "t": "2025-01-29T11:00:00",
+      "vibration": 0.08527,
+      "strain": 236.563,
+      "temperature": 27.805,
+      "displacement": 1.697
+    },
+    {
+      "t": "2025-01-29T18:00:00",
+      "vibration": 0.14329,
+      "strain": 304.843,
+      "temperature": 23.012,
+      "displacement": 2.2771
+    },
+    {
+      "t": "2025-01-30T02:00:00",
+      "vibration": 0.09507,
+      "strain": 196.318,
+      "temperature": 16.493,
+      "displacement": 1.1886
+    },
+    {
+      "t": "2025-01-30T09:00:00",
+      "vibration": 0.12954,
+      "strain": 297.064,
+      "temperature": 25.859,
+      "displacement": 2.3189
+    },
+    {
+      "t": "2025-01-30T16:00:00",
+      "vibration": 0.11996,
+      "strain": 268.261,
+      "temperature": 24.545,
+      "displacement": 1.8719
+    },
+    {
+      "t": "2025-01-31T00:00:00",
+      "vibration": 0.04905,
+      "strain": 180.538,
+      "temperature": 16.822,
+      "displacement": 1.1923
+    },
+    {
+      "t": "2025-01-31T09:00:00",
+      "vibration": 0.11871,
+      "strain": 292.763,
+      "temperature": 25.837,
+      "displacement": 2.142
+    },
+    {
+      "t": "2025-01-31T16:00:00",
+      "vibration": 0.09727,
+      "strain": 270.823,
+      "temperature": 26.871,
+      "displacement": 2.0804
+    },
+    {
+      "t": "2025-02-01T00:00:00",
+      "vibration": 0.07975,
+      "strain": 185.648,
+      "temperature": 17.206,
+      "displacement": 1.3216
+    },
+    {
+      "t": "2025-02-01T07:00:00",
+      "vibration": 0.12564,
+      "strain": 296.595,
+      "temperature": 24.281,
+      "displacement": 2.2215
+    },
+    {
+      "t": "2025-02-01T14:00:00",
+      "vibration": 0.07361,
+      "strain": 220.902,
+      "temperature": 29.05,
+      "displacement": 1.6439
+    },
+    {
+      "t": "2025-02-01T21:00:00",
+      "vibration": 0.09713,
+      "strain": 215.018,
+      "temperature": 16.704,
+      "displacement": 1.5545
+    },
+    {
+      "t": "2025-02-02T04:00:00",
+      "vibration": 0.08125,
+      "strain": 203.621,
+      "temperature": 20.54,
+      "displacement": 1.6174
+    },
+    {
+      "t": "2025-02-02T11:00:00",
+      "vibration": 0.0931,
+      "strain": 236.828,
+      "temperature": 27.467,
+      "displacement": 1.7787
+    },
+    {
+      "t": "2025-02-02T18:00:00",
+      "vibration": 0.11417,
+      "strain": 320.945,
+      "temperature": 23.287,
+      "displacement": 2.3972
+    },
+    {
+      "t": "2025-02-03T01:00:00",
+      "vibration": 0.08086,
+      "strain": 194.248,
+      "temperature": 18.054,
+      "displacement": 1.3533
+    },
+    {
+      "t": "2025-02-03T09:00:00",
+      "vibration": 0.12914,
+      "strain": 305.793,
+      "temperature": 26.322,
+      "displacement": 2.3031
+    },
+    {
+      "t": "2025-02-03T16:00:00",
+      "vibration": 0.09982,
+      "strain": 266.351,
+      "temperature": 25.997,
+      "displacement": 1.9785
+    },
+    {
+      "t": "2025-02-03T23:00:00",
+      "vibration": 0.05445,
+      "strain": 190.892,
+      "temperature": 17.958,
+      "displacement": 1.4037
+    },
+    {
+      "t": "2025-02-04T06:00:00",
+      "vibration": 0.12428,
+      "strain": 254.459,
+      "temperature": 22.13,
+      "displacement": 1.9185
+    },
+    {
+      "t": "2025-02-04T13:00:00",
+      "vibration": 0.06081,
+      "strain": 216.495,
+      "temperature": 26.113,
+      "displacement": 1.5519
+    },
+    {
+      "t": "2025-02-04T20:00:00",
+      "vibration": 0.08247,
+      "strain": 252.728,
+      "temperature": 20.133,
+      "displacement": 1.7803
+    },
+    {
+      "t": "2025-02-05T03:00:00",
+      "vibration": 0.06907,
+      "strain": 201.244,
+      "temperature": 19.312,
+      "displacement": 1.2634
+    },
+    {
+      "t": "2025-02-05T11:00:00",
+      "vibration": 0.09031,
+      "strain": 241.744,
+      "temperature": 28.875,
+      "displacement": 1.7935
+    },
+    {
+      "t": "2025-02-05T18:00:00",
+      "vibration": 0.12365,
+      "strain": 304.433,
+      "temperature": 21.343,
+      "displacement": 2.1988
+    },
+    {
+      "t": "2025-02-06T01:00:00",
+      "vibration": 0.08305,
+      "strain": 194.004,
+      "temperature": 19.01,
+      "displacement": 1.3229
+    },
+    {
+      "t": "2025-02-06T08:00:00",
+      "vibration": 0.11378,
+      "strain": 309.061,
+      "temperature": 27.677,
+      "displacement": 2.4698
+    },
+    {
+      "t": "2025-02-06T15:00:00",
+      "vibration": 0.07954,
+      "strain": 232.374,
+      "temperature": 28.017,
+      "displacement": 1.7136
+    },
+    {
+      "t": "2025-02-06T23:00:00",
+      "vibration": 0.10186,
+      "strain": 189.321,
+      "temperature": 17.495,
+      "displacement": 1.3083
+    },
+    {
+      "t": "2025-02-07T07:00:00",
+      "vibration": 0.12155,
+      "strain": 309.431,
+      "temperature": 26.759,
+      "displacement": 2.1947
+    },
+    {
+      "t": "2025-02-07T14:00:00",
+      "vibration": 0.08576,
+      "strain": 214.242,
+      "temperature": 28.966,
+      "displacement": 1.6459
+    },
+    {
+      "t": "2025-02-07T21:00:00",
+      "vibration": 0.09157,
+      "strain": 205.722,
+      "temperature": 18.413,
+      "displacement": 1.4805
+    },
+    {
+      "t": "2025-02-08T04:00:00",
+      "vibration": 0.06459,
+      "strain": 213.023,
+      "temperature": 22.808,
+      "displacement": 1.4596
+    },
+    {
+      "t": "2025-02-08T11:00:00",
+      "vibration": 0.07694,
+      "strain": 241.51,
+      "temperature": 29.195,
+      "displacement": 1.8002
+    },
+    {
+      "t": "2025-02-08T18:00:00",
+      "vibration": 0.1382,
+      "strain": 318.126,
+      "temperature": 24.092,
+      "displacement": 2.1876
+    },
+    {
+      "t": "2025-02-09T01:00:00",
+      "vibration": 0.06196,
+      "strain": 200.81,
+      "temperature": 18.319,
+      "displacement": 1.4124
+    },
+    {
+      "t": "2025-02-09T08:00:00",
+      "vibration": 0.12807,
+      "strain": 314.867,
+      "temperature": 27.568,
+      "displacement": 2.2907
+    },
+    {
+      "t": "2025-02-09T15:00:00",
+      "vibration": 0.08277,
+      "strain": 244.965,
+      "temperature": 29.005,
+      "displacement": 1.6792
+    },
+    {
+      "t": "2025-02-09T22:00:00",
+      "vibration": 0.09264,
+      "strain": 200.57,
+      "temperature": 19.022,
+      "displacement": 1.4219
+    },
+    {
+      "t": "2025-02-10T05:00:00",
+      "vibration": 0.09422,
+      "strain": 228.767,
+      "temperature": 21.164,
+      "displacement": 1.5344
+    },
+    {
+      "t": "2025-02-10T12:00:00",
+      "vibration": 0.09732,
+      "strain": 225.855,
+      "temperature": 30.622,
+      "displacement": 1.6068
+    },
+    {
+      "t": "2025-02-10T19:00:00",
+      "vibration": 0.11408,
+      "strain": 291.039,
+      "temperature": 23.334,
+      "displacement": 2.0643
+    },
+    {
+      "t": "2025-02-11T02:00:00",
+      "vibration": 0.0868,
+      "strain": 187.507,
+      "temperature": 17.605,
+      "displacement": 1.3273
+    },
+    {
+      "t": "2025-02-11T09:00:00",
+      "vibration": 0.1145,
+      "strain": 317.819,
+      "temperature": 30.307,
+      "displacement": 2.3472
+    },
+    {
+      "t": "2025-02-11T16:00:00",
+      "vibration": 0.10355,
+      "strain": 267.843,
+      "temperature": 27.415,
+      "displacement": 1.9959
+    },
+    {
+      "t": "2025-02-11T23:00:00",
+      "vibration": 0.08784,
+      "strain": 190.371,
+      "temperature": 18.241,
+      "displacement": 1.3874
+    },
+    {
+      "t": "2025-02-12T06:00:00",
+      "vibration": 0.11086,
+      "strain": 267.604,
+      "temperature": 23.362,
+      "displacement": 1.7718
+    },
+    {
+      "t": "2025-02-12T13:00:00",
+      "vibration": 0.09661,
+      "strain": 223.322,
+      "temperature": 30.791,
+      "displacement": 1.6234
+    },
+    {
+      "t": "2025-02-12T20:00:00",
+      "vibration": 0.11654,
+      "strain": 257.404,
+      "temperature": 21.611,
+      "displacement": 1.8127
+    },
+    {
+      "t": "2025-02-13T03:00:00",
+      "vibration": 0.06509,
+      "strain": 209.505,
+      "temperature": 20.5,
+      "displacement": 1.6022
+    },
+    {
+      "t": "2025-02-13T11:00:00",
+      "vibration": 0.07103,
+      "strain": 239.644,
+      "temperature": 30.662,
+      "displacement": 1.6834
+    },
+    {
+      "t": "2025-02-13T18:00:00",
+      "vibration": 0.13503,
+      "strain": 303.255,
+      "temperature": 23.254,
+      "displacement": 2.1457
+    },
+    {
+      "t": "2025-02-14T01:00:00",
+      "vibration": 0.07734,
+      "strain": 190.912,
+      "temperature": 19.568,
+      "displacement": 1.4015
+    },
+    {
+      "t": "2025-02-14T08:00:00",
+      "vibration": 0.12646,
+      "strain": 315.114,
+      "temperature": 27.097,
+      "displacement": 2.2729
+    },
+    {
+      "t": "2025-02-14T15:00:00",
+      "vibration": 0.09214,
+      "strain": 220.749,
+      "temperature": 27.776,
+      "displacement": 1.717
+    },
+    {
+      "t": "2025-02-14T22:00:00",
+      "vibration": 0.09551,
+      "strain": 198.587,
+      "temperature": 18.97,
+      "displacement": 1.5449
+    },
+    {
+      "t": "2025-02-15T05:00:00",
+      "vibration": 0.10837,
+      "strain": 228.561,
+      "temperature": 22.952,
+      "displacement": 1.4907
+    },
+    {
+      "t": "2025-02-15T12:00:00",
+      "vibration": 0.06937,
+      "strain": 235.521,
+      "temperature": 31.949,
+      "displacement": 1.7133
+    },
+    {
+      "t": "2025-02-15T19:00:00",
+      "vibration": 0.11037,
+      "strain": 297.692,
+      "temperature": 24.932,
+      "displacement": 2.1718
+    },
+    {
+      "t": "2025-02-16T02:00:00",
+      "vibration": 0.0928,
+      "strain": 195.976,
+      "temperature": 18.293,
+      "displacement": 1.3813
+    },
+    {
+      "t": "2025-02-16T09:00:00",
+      "vibration": 0.13218,
+      "strain": 304.849,
+      "temperature": 29.071,
+      "displacement": 2.1136
+    },
+    {
+      "t": "2025-02-16T16:00:00",
+      "vibration": 0.1087,
+      "strain": 272.218,
+      "temperature": 28.657,
+      "displacement": 1.993
+    },
+    {
+      "t": "2025-02-16T23:00:00",
+      "vibration": 0.09922,
+      "strain": 196.004,
+      "temperature": 19.203,
+      "displacement": 1.3619
+    },
+    {
+      "t": "2025-02-17T06:00:00",
+      "vibration": 0.10017,
+      "strain": 256.102,
+      "temperature": 25.039,
+      "displacement": 1.9844
+    },
+    {
+      "t": "2025-02-17T13:00:00",
+      "vibration": 0.04905,
+      "strain": 222.655,
+      "temperature": 28.248,
+      "displacement": 1.683
+    },
+    {
+      "t": "2025-02-17T20:00:00",
+      "vibration": 0.10667,
+      "strain": 259.399,
+      "temperature": 23.459,
+      "displacement": 1.8241
+    },
+    {
+      "t": "2025-02-18T03:00:00",
+      "vibration": 0.07224,
+      "strain": 201.692,
+      "temperature": 21.244,
+      "displacement": 1.4747
+    },
+    {
+      "t": "2025-02-18T10:00:00",
+      "vibration": 0.12604,
+      "strain": 280.566,
+      "temperature": 30.245,
+      "displacement": 1.9574
+    },
+    {
+      "t": "2025-02-18T17:00:00",
+      "vibration": 0.14941,
+      "strain": 306.747,
+      "temperature": 26.471,
+      "displacement": 2.3239
+    },
+    {
+      "t": "2025-02-19T02:00:00",
+      "vibration": 0.06123,
+      "strain": 195.774,
+      "temperature": 20.713,
+      "displacement": 1.3779
+    },
+    {
+      "t": "2025-02-19T09:00:00",
+      "vibration": 0.12538,
+      "strain": 299.209,
+      "temperature": 28.061,
+      "displacement": 2.1801
+    },
+    {
+      "t": "2025-02-19T16:00:00",
+      "vibration": 0.11058,
+      "strain": 260.985,
+      "temperature": 28.162,
+      "displacement": 1.943
+    },
+    {
+      "t": "2025-02-19T23:00:00",
+      "vibration": 0.08011,
+      "strain": 188.174,
+      "temperature": 18.404,
+      "displacement": 1.3022
+    },
+    {
+      "t": "2025-02-20T06:00:00",
+      "vibration": 0.08901,
+      "strain": 255.923,
+      "temperature": 24.728,
+      "displacement": 1.9921
+    },
+    {
+      "t": "2025-02-20T14:00:00",
+      "vibration": 0.0919,
+      "strain": 211.454,
+      "temperature": 27.597,
+      "displacement": 1.6907
+    },
+    {
+      "t": "2025-02-20T21:00:00",
+      "vibration": 0.06898,
+      "strain": 226.164,
+      "temperature": 22.889,
+      "displacement": 1.7385
+    },
+    {
+      "t": "2025-02-21T05:00:00",
+      "vibration": 0.08897,
+      "strain": 227.901,
+      "temperature": 24.821,
+      "displacement": 1.6341
+    },
+    {
+      "t": "2025-02-21T12:00:00",
+      "vibration": 0.07486,
+      "strain": 233.491,
+      "temperature": 31.726,
+      "displacement": 1.6499
+    },
+    {
+      "t": "2025-02-21T19:00:00",
+      "vibration": 0.1325,
+      "strain": 299.64,
+      "temperature": 23.504,
+      "displacement": 2.1547
+    },
+    {
+      "t": "2025-02-22T02:00:00",
+      "vibration": 0.08095,
+      "strain": 207.499,
+      "temperature": 21.768,
+      "displacement": 1.4913
+    },
+    {
+      "t": "2025-02-22T09:00:00",
+      "vibration": 0.10773,
+      "strain": 313.465,
+      "temperature": 29.999,
+      "displacement": 2.1798
+    },
+    {
+      "t": "2025-02-22T17:00:00",
+      "vibration": 0.12137,
+      "strain": 293.548,
+      "temperature": 27.217,
+      "displacement": 2.1177
+    },
+    {
+      "t": "2025-02-23T00:00:00",
+      "vibration": 0.07457,
+      "strain": 190.013,
+      "temperature": 19.46,
+      "displacement": 1.3966
+    },
+    {
+      "t": "2025-02-23T07:00:00",
+      "vibration": 0.14634,
+      "strain": 301.709,
+      "temperature": 27.201,
+      "displacement": 2.272
+    },
+    {
+      "t": "2025-02-23T14:00:00",
+      "vibration": 0.07412,
+      "strain": 223.688,
+      "temperature": 29.514,
+      "displacement": 1.6001
+    },
+    {
+      "t": "2025-02-23T21:00:00",
+      "vibration": 0.12184,
+      "strain": 208.621,
+      "temperature": 19.112,
+      "displacement": 1.6505
+    },
+    {
+      "t": "2025-02-24T04:00:00",
+      "vibration": 0.07614,
+      "strain": 209.484,
+      "temperature": 23.078,
+      "displacement": 1.7312
+    },
+    {
+      "t": "2025-02-24T12:00:00",
+      "vibration": 0.10167,
+      "strain": 219.724,
+      "temperature": 28.68,
+      "displacement": 1.6477
+    },
+    {
+      "t": "2025-02-24T19:00:00",
+      "vibration": 0.1355,
+      "strain": 302.728,
+      "temperature": 26.664,
+      "displacement": 2.0509
+    },
+    {
+      "t": "2025-02-25T02:00:00",
+      "vibration": 0.07426,
+      "strain": 189.85,
+      "temperature": 20.893,
+      "displacement": 1.4231
+    },
+    {
+      "t": "2025-02-25T09:00:00",
+      "vibration": 0.12934,
+      "strain": 312.183,
+      "temperature": 31.248,
+      "displacement": 2.1855
+    },
+    {
+      "t": "2025-02-25T16:00:00",
+      "vibration": 0.11619,
+      "strain": 272.425,
+      "temperature": 29.678,
+      "displacement": 1.871
+    },
+    {
+      "t": "2025-02-25T23:00:00",
+      "vibration": 0.05853,
+      "strain": 193.255,
+      "temperature": 19.688,
+      "displacement": 1.2795
+    },
+    {
+      "t": "2025-02-26T06:00:00",
+      "vibration": 0.09987,
+      "strain": 273.602,
+      "temperature": 25.911,
+      "displacement": 1.9862
+    },
+    {
+      "t": "2025-02-26T13:00:00",
+      "vibration": 0.0828,
+      "strain": 216.012,
+      "temperature": 31.402,
+      "displacement": 1.4904
+    },
+    {
+      "t": "2025-02-26T20:00:00",
+      "vibration": 0.11014,
+      "strain": 245.031,
+      "temperature": 22.759,
+      "displacement": 1.7802
+    },
+    {
+      "t": "2025-02-27T03:00:00",
+      "vibration": 0.08643,
+      "strain": 203.172,
+      "temperature": 23.064,
+      "displacement": 1.567
+    },
+    {
+      "t": "2025-02-27T10:00:00",
+      "vibration": 0.10364,
+      "strain": 288.44,
+      "temperature": 31.857,
+      "displacement": 1.9465
+    },
+    {
+      "t": "2025-02-27T17:00:00",
+      "vibration": 0.13638,
+      "strain": 308.685,
+      "temperature": 27.978,
+      "displacement": 2.2645
+    },
+    {
+      "t": "2025-02-28T00:00:00",
+      "vibration": 0.06257,
+      "strain": 186.454,
+      "temperature": 19.755,
+      "displacement": 1.3572
+    },
+    {
+      "t": "2025-02-28T07:00:00",
+      "vibration": 0.13689,
+      "strain": 300.676,
+      "temperature": 26.267,
+      "displacement": 2.1156
+    },
+    {
+      "t": "2025-02-28T14:00:00",
+      "vibration": 0.06643,
+      "strain": 227.608,
+      "temperature": 31.909,
+      "displacement": 1.5766
+    },
+    {
+      "t": "2025-02-28T21:00:00",
+      "vibration": 0.10384,
+      "strain": 218.909,
+      "temperature": 23.677,
+      "displacement": 1.572
+    },
+    {
+      "t": "2025-03-01T04:00:00",
+      "vibration": 0.09665,
+      "strain": 205.542,
+      "temperature": 23.237,
+      "displacement": 1.4967
+    },
+    {
+      "t": "2025-03-01T11:00:00",
+      "vibration": 0.09391,
+      "strain": 248.414,
+      "temperature": 33.399,
+      "displacement": 1.7545
+    },
+    {
+      "t": "2025-03-01T18:00:00",
+      "vibration": 0.11874,
+      "strain": 322.617,
+      "temperature": 26.783,
+      "displacement": 2.3644
+    },
+    {
+      "t": "2025-03-02T01:00:00",
+      "vibration": 0.06605,
+      "strain": 190.204,
+      "temperature": 21.225,
+      "displacement": 1.4417
+    },
+    {
+      "t": "2025-03-02T08:00:00",
+      "vibration": 0.14555,
+      "strain": 318.61,
+      "temperature": 29.22,
+      "displacement": 2.3888
+    },
+    {
+      "t": "2025-03-02T15:00:00",
+      "vibration": 0.09956,
+      "strain": 246.813,
+      "temperature": 30.693,
+      "displacement": 1.723
+    },
+    {
+      "t": "2025-03-02T22:00:00",
+      "vibration": 0.07258,
+      "strain": 205.237,
+      "temperature": 20.367,
+      "displacement": 1.5808
+    },
+    {
+      "t": "2025-03-03T05:00:00",
+      "vibration": 0.10381,
+      "strain": 216.694,
+      "temperature": 23.001,
+      "displacement": 1.5056
+    },
+    {
+      "t": "2025-03-03T12:00:00",
+      "vibration": 0.07487,
+      "strain": 228.05,
+      "temperature": 35.19,
+      "displacement": 1.6514
+    },
+    {
+      "t": "2025-03-03T20:00:00",
+      "vibration": 0.11633,
+      "strain": 258.811,
+      "temperature": 24.608,
+      "displacement": 1.9939
+    },
+    {
+      "t": "2025-03-04T03:00:00",
+      "vibration": 0.05449,
+      "strain": 203.016,
+      "temperature": 22.489,
+      "displacement": 1.4383
+    },
+    {
+      "t": "2025-03-04T10:00:00",
+      "vibration": 0.11532,
+      "strain": 284.979,
+      "temperature": 32.809,
+      "displacement": 2.0757
+    },
+    {
+      "t": "2025-03-04T17:00:00",
+      "vibration": 0.1277,
+      "strain": 346.041,
+      "temperature": 28.91,
+      "displacement": 2.3694
+    },
+    {
+      "t": "2025-03-05T00:00:00",
+      "vibration": 0.07637,
+      "strain": 237.095,
+      "temperature": 21.915,
+      "displacement": 1.3774
+    },
+    {
+      "t": "2025-03-05T07:00:00",
+      "vibration": 0.12338,
+      "strain": 328.369,
+      "temperature": 26.072,
+      "displacement": 2.3168
+    },
+    {
+      "t": "2025-03-05T14:00:00",
+      "vibration": 0.10628,
+      "strain": 246.11,
+      "temperature": 33.475,
+      "displacement": 1.6462
+    },
+    {
+      "t": "2025-03-05T21:00:00",
+      "vibration": 0.11154,
+      "strain": 228.285,
+      "temperature": 21.2,
+      "displacement": 1.8055
+    },
+    {
+      "t": "2025-03-06T04:00:00",
+      "vibration": 0.10704,
+      "strain": 245.645,
+      "temperature": 23.607,
+      "displacement": 1.5141
+    },
+    {
+      "t": "2025-03-06T11:00:00",
+      "vibration": 0.11764,
+      "strain": 279.984,
+      "temperature": 31.751,
+      "displacement": 1.7212
+    },
+    {
+      "t": "2025-03-06T18:00:00",
+      "vibration": 0.14288,
+      "strain": 336.983,
+      "temperature": 25.269,
+      "displacement": 2.4719
+    },
+    {
+      "t": "2025-03-07T02:00:00",
+      "vibration": 0.10678,
+      "strain": 227.142,
+      "temperature": 20.82,
+      "displacement": 1.434
+    },
+    {
+      "t": "2025-03-07T09:00:00",
+      "vibration": 0.14221,
+      "strain": 335.789,
+      "temperature": 29.334,
+      "displacement": 2.3879
+    },
+    {
+      "t": "2025-03-07T16:00:00",
+      "vibration": 0.12667,
+      "strain": 297.864,
+      "temperature": 30.032,
+      "displacement": 1.9273
+    },
+    {
+      "t": "2025-03-07T23:00:00",
+      "vibration": 0.09166,
+      "strain": 216.7,
+      "temperature": 20.357,
+      "displacement": 1.4279
+    },
+    {
+      "t": "2025-03-08T06:00:00",
+      "vibration": 0.11997,
+      "strain": 286.99,
+      "temperature": 25.406,
+      "displacement": 1.9053
+    },
+    {
+      "t": "2025-03-08T13:00:00",
+      "vibration": 0.08795,
+      "strain": 247.491,
+      "temperature": 33.152,
+      "displacement": 1.6485
+    },
+    {
+      "t": "2025-03-08T21:00:00",
+      "vibration": 0.09286,
+      "strain": 269.763,
+      "temperature": 24.457,
+      "displacement": 1.6293
+    },
+    {
+      "t": "2025-03-09T04:00:00",
+      "vibration": 0.09373,
+      "strain": 240.488,
+      "temperature": 24.09,
+      "displacement": 1.3808
+    },
+    {
+      "t": "2025-03-09T11:00:00",
+      "vibration": 0.11242,
+      "strain": 280.244,
+      "temperature": 32.025,
+      "displacement": 1.8544
+    },
+    {
+      "t": "2025-03-09T18:00:00",
+      "vibration": 0.15423,
+      "strain": 320.982,
+      "temperature": 24.328,
+      "displacement": 2.1592
+    },
+    {
+      "t": "2025-03-10T01:00:00",
+      "vibration": 0.10132,
+      "strain": 233.509,
+      "temperature": 21.394,
+      "displacement": 1.3375
+    },
+    {
+      "t": "2025-03-10T08:00:00",
+      "vibration": 0.14381,
+      "strain": 362.215,
+      "temperature": 28.444,
+      "displacement": 2.3022
+    },
+    {
+      "t": "2025-03-10T15:00:00",
+      "vibration": 0.08821,
+      "strain": 290.754,
+      "temperature": 32.856,
+      "displacement": 1.8596
+    },
+    {
+      "t": "2025-03-10T22:00:00",
+      "vibration": 0.09982,
+      "strain": 251.205,
+      "temperature": 21.73,
+      "displacement": 1.3956
+    },
+    {
+      "t": "2025-03-11T05:00:00",
+      "vibration": 0.11104,
+      "strain": 256.579,
+      "temperature": 24.402,
+      "displacement": 1.7327
+    },
+    {
+      "t": "2025-03-11T12:00:00",
+      "vibration": 0.09556,
+      "strain": 269.27,
+      "temperature": 33.614,
+      "displacement": 1.7848
+    },
+    {
+      "t": "2025-03-11T19:00:00",
+      "vibration": 0.13314,
+      "strain": 319.526,
+      "temperature": 23.784,
+      "displacement": 2.2807
+    },
+    {
+      "t": "2025-03-12T02:00:00",
+      "vibration": 0.09196,
+      "strain": 228.375,
+      "temperature": 21.497,
+      "displacement": 1.2792
+    },
+    {
+      "t": "2025-03-12T09:00:00",
+      "vibration": 0.12265,
+      "strain": 347.009,
+      "temperature": 32.629,
+      "displacement": 2.2305
+    },
+    {
+      "t": "2025-03-12T16:00:00",
+      "vibration": 0.12665,
+      "strain": 300.141,
+      "temperature": 29.779,
+      "displacement": 1.9661
+    },
+    {
+      "t": "2025-03-12T23:00:00",
+      "vibration": 0.09306,
+      "strain": 219.514,
+      "temperature": 18.752,
+      "displacement": 1.3057
+    },
+    {
+      "t": "2025-03-13T06:00:00",
+      "vibration": 0.12983,
+      "strain": 278.767,
+      "temperature": 26.701,
+      "displacement": 1.8153
+    },
+    {
+      "t": "2025-03-13T13:00:00",
+      "vibration": 0.0883,
+      "strain": 261.754,
+      "temperature": 32.56,
+      "displacement": 1.654
+    },
+    {
+      "t": "2025-03-13T20:00:00",
+      "vibration": 0.11696,
+      "strain": 283.371,
+      "temperature": 25.751,
+      "displacement": 1.9058
+    },
+    {
+      "t": "2025-03-14T03:00:00",
+      "vibration": 0.11186,
+      "strain": 234.581,
+      "temperature": 23.176,
+      "displacement": 1.3306
+    },
+    {
+      "t": "2025-03-14T11:00:00",
+      "vibration": 0.12672,
+      "strain": 291.803,
+      "temperature": 33.385,
+      "displacement": 1.9177
+    },
+    {
+      "t": "2025-03-14T18:00:00",
+      "vibration": 0.12061,
+      "strain": 327.958,
+      "temperature": 26.764,
+      "displacement": 2.4307
+    },
+    {
+      "t": "2025-03-15T02:00:00",
+      "vibration": 0.08775,
+      "strain": 225.46,
+      "temperature": 23.633,
+      "displacement": 1.5427
+    },
+    {
+      "t": "2025-03-15T09:00:00",
+      "vibration": 0.14433,
+      "strain": 331.67,
+      "temperature": 30.82,
+      "displacement": 2.3176
+    },
+    {
+      "t": "2025-03-15T16:00:00",
+      "vibration": 0.12637,
+      "strain": 301.487,
+      "temperature": 29.409,
+      "displacement": 2.0442
+    },
+    {
+      "t": "2025-03-15T23:00:00",
+      "vibration": 0.10666,
+      "strain": 234.026,
+      "temperature": 22.071,
+      "displacement": 1.6205
+    },
+    {
+      "t": "2025-03-16T06:00:00",
+      "vibration": 0.10732,
+      "strain": 304.191,
+      "temperature": 24.639,
+      "displacement": 1.8695
+    },
+    {
+      "t": "2025-03-16T13:00:00",
+      "vibration": 0.11464,
+      "strain": 273.388,
+      "temperature": 34.577,
+      "displacement": 1.555
+    },
+    {
+      "t": "2025-03-16T20:00:00",
+      "vibration": 0.14554,
+      "strain": 297.035,
+      "temperature": 24.17,
+      "displacement": 1.9636
+    },
+    {
+      "t": "2025-03-17T03:00:00",
+      "vibration": 0.10362,
+      "strain": 223.569,
+      "temperature": 22.877,
+      "displacement": 1.4401
+    },
+    {
+      "t": "2025-03-17T10:00:00",
+      "vibration": 0.14943,
+      "strain": 307.498,
+      "temperature": 30.464,
+      "displacement": 1.9393
+    },
+    {
+      "t": "2025-03-17T17:00:00",
+      "vibration": 0.13253,
+      "strain": 322.159,
+      "temperature": 30.283,
+      "displacement": 2.2797
+    },
+    {
+      "t": "2025-03-18T01:00:00",
+      "vibration": 0.10558,
+      "strain": 252.925,
+      "temperature": 22.67,
+      "displacement": 1.5164
+    },
+    {
+      "t": "2025-03-18T08:00:00",
+      "vibration": 0.15003,
+      "strain": 351.47,
+      "temperature": 29.317,
+      "displacement": 2.5161
+    },
+    {
+      "t": "2025-03-18T15:00:00",
+      "vibration": 0.08413,
+      "strain": 260.984,
+      "temperature": 30.819,
+      "displacement": 1.6971
+    },
+    {
+      "t": "2025-03-18T23:00:00",
+      "vibration": 0.10815,
+      "strain": 218.483,
+      "temperature": 20.52,
+      "displacement": 1.3868
+    },
+    {
+      "t": "2025-03-19T07:00:00",
+      "vibration": 0.13102,
+      "strain": 348.262,
+      "temperature": 28.423,
+      "displacement": 2.2356
+    },
+    {
+      "t": "2025-03-19T14:00:00",
+      "vibration": 0.09232,
+      "strain": 264.864,
+      "temperature": 34.592,
+      "displacement": 1.6605
+    },
+    {
+      "t": "2025-03-19T21:00:00",
+      "vibration": 0.13365,
+      "strain": 245.85,
+      "temperature": 23.741,
+      "displacement": 1.6028
+    },
+    {
+      "t": "2025-03-20T04:00:00",
+      "vibration": 0.09256,
+      "strain": 227.194,
+      "temperature": 25.617,
+      "displacement": 1.6397
+    },
+    {
+      "t": "2025-03-20T11:00:00",
+      "vibration": 0.10466,
+      "strain": 281.453,
+      "temperature": 33.658,
+      "displacement": 1.6682
+    },
+    {
+      "t": "2025-03-20T18:00:00",
+      "vibration": 0.15593,
+      "strain": 342.684,
+      "temperature": 28.97,
+      "displacement": 2.3405
+    },
+    {
+      "t": "2025-03-21T01:00:00",
+      "vibration": 0.12256,
+      "strain": 226.65,
+      "temperature": 22.527,
+      "displacement": 1.4156
+    },
+    {
+      "t": "2025-03-21T08:00:00",
+      "vibration": 0.16625,
+      "strain": 352.74,
+      "temperature": 31.521,
+      "displacement": 2.2959
+    },
+    {
+      "t": "2025-03-21T16:00:00",
+      "vibration": 0.13232,
+      "strain": 301.123,
+      "temperature": 31.441,
+      "displacement": 1.9973
+    },
+    {
+      "t": "2025-03-21T23:00:00",
+      "vibration": 0.09084,
+      "strain": 228.275,
+      "temperature": 20.224,
+      "displacement": 1.3628
+    },
+    {
+      "t": "2025-03-22T06:00:00",
+      "vibration": 0.11627,
+      "strain": 289.845,
+      "temperature": 27.113,
+      "displacement": 1.952
+    },
+    {
+      "t": "2025-03-22T13:00:00",
+      "vibration": 0.09788,
+      "strain": 259.341,
+      "temperature": 35.161,
+      "displacement": 1.6968
+    },
+    {
+      "t": "2025-03-22T20:00:00",
+      "vibration": 0.09823,
+      "strain": 304.245,
+      "temperature": 23.284,
+      "displacement": 1.9016
+    },
+    {
+      "t": "2025-03-23T03:00:00",
+      "vibration": 0.08938,
+      "strain": 244.172,
+      "temperature": 22.511,
+      "displacement": 1.3258
+    },
+    {
+      "t": "2025-03-23T10:00:00",
+      "vibration": 0.11808,
+      "strain": 292.958,
+      "temperature": 33.299,
+      "displacement": 2.0725
+    },
+    {
+      "t": "2025-03-23T17:00:00",
+      "vibration": 0.12854,
+      "strain": 338.446,
+      "temperature": 28.629,
+      "displacement": 2.2714
+    },
+    {
+      "t": "2025-03-24T00:00:00",
+      "vibration": 0.10132,
+      "strain": 231.332,
+      "temperature": 21.357,
+      "displacement": 1.3544
+    },
+    {
+      "t": "2025-03-24T07:00:00",
+      "vibration": 0.14203,
+      "strain": 325.085,
+      "temperature": 30.35,
+      "displacement": 2.1
+    },
+    {
+      "t": "2025-03-24T14:00:00",
+      "vibration": 0.09886,
+      "strain": 243.099,
+      "temperature": 33.107,
+      "displacement": 1.6677
+    },
+    {
+      "t": "2025-03-24T21:00:00",
+      "vibration": 0.10732,
+      "strain": 260.744,
+      "temperature": 21.999,
+      "displacement": 1.5712
+    },
+    {
+      "t": "2025-03-25T04:00:00",
+      "vibration": 0.10827,
+      "strain": 243.453,
+      "temperature": 25.264,
+      "displacement": 1.5466
+    },
+    {
+      "t": "2025-03-25T11:00:00",
+      "vibration": 0.12044,
+      "strain": 269.745,
+      "temperature": 33.997,
+      "displacement": 1.802
+    },
+    {
+      "t": "2025-03-25T18:00:00",
+      "vibration": 0.12387,
+      "strain": 355.909,
+      "temperature": 26.382,
+      "displacement": 2.3979
+    },
+    {
+      "t": "2025-03-26T02:00:00",
+      "vibration": 0.10725,
+      "strain": 215.448,
+      "temperature": 23.424,
+      "displacement": 1.4057
+    },
+    {
+      "t": "2025-03-26T09:00:00",
+      "vibration": 0.14326,
+      "strain": 315.323,
+      "temperature": 30.399,
+      "displacement": 2.2031
+    },
+    {
+      "t": "2025-03-26T16:00:00",
+      "vibration": 0.1347,
+      "strain": 306.484,
+      "temperature": 31.714,
+      "displacement": 1.8774
+    },
+    {
+      "t": "2025-03-27T00:00:00",
+      "vibration": 0.11527,
+      "strain": 230.451,
+      "temperature": 23.049,
+      "displacement": 1.3962
+    },
+    {
+      "t": "2025-03-27T08:00:00",
+      "vibration": 0.15053,
+      "strain": 346.647,
+      "temperature": 31.065,
+      "displacement": 2.2368
+    },
+    {
+      "t": "2025-03-27T15:00:00",
+      "vibration": 0.11806,
+      "strain": 277.565,
+      "temperature": 32.885,
+      "displacement": 1.7788
+    },
+    {
+      "t": "2025-03-27T22:00:00",
+      "vibration": 0.08968,
+      "strain": 233.212,
+      "temperature": 23.073,
+      "displacement": 1.5982
+    },
+    {
+      "t": "2025-03-28T05:00:00",
+      "vibration": 0.09726,
+      "strain": 270.08,
+      "temperature": 26.171,
+      "displacement": 1.4884
+    },
+    {
+      "t": "2025-03-28T13:00:00",
+      "vibration": 0.08985,
+      "strain": 256.507,
+      "temperature": 33.819,
+      "displacement": 1.5103
+    },
+    {
+      "t": "2025-03-28T20:00:00",
+      "vibration": 0.11381,
+      "strain": 274.98,
+      "temperature": 26.186,
+      "displacement": 1.9154
+    },
+    {
+      "t": "2025-03-29T03:00:00",
+      "vibration": 0.0768,
+      "strain": 221.132,
+      "temperature": 24.486,
+      "displacement": 1.2982
+    },
+    {
+      "t": "2025-03-29T10:00:00",
+      "vibration": 0.14239,
+      "strain": 320.248,
+      "temperature": 31.0,
+      "displacement": 1.9416
+    },
+    {
+      "t": "2025-03-29T17:00:00",
+      "vibration": 0.13622,
+      "strain": 314.155,
+      "temperature": 28.912,
+      "displacement": 2.0952
+    },
+    {
+      "t": "2025-03-30T00:00:00",
+      "vibration": 0.08696,
+      "strain": 232.575,
+      "temperature": 23.078,
+      "displacement": 1.5279
+    },
+    {
+      "t": "2025-03-30T07:00:00",
+      "vibration": 0.14007,
+      "strain": 331.252,
+      "temperature": 30.464,
+      "displacement": 2.2899
+    },
+    {
+      "t": "2025-03-30T14:00:00",
+      "vibration": 0.10708,
+      "strain": 258.98,
+      "temperature": 35.828,
+      "displacement": 1.6343
+    },
+    {
+      "t": "2025-03-30T21:00:00",
+      "vibration": 0.08375,
+      "strain": 244.825,
+      "temperature": 24.131,
+      "displacement": 1.7614
+    },
+    {
+      "t": "2025-03-31T04:00:00",
+      "vibration": 0.11776,
+      "strain": 245.474,
+      "temperature": 24.879,
+      "displacement": 1.5834
+    },
+    {
+      "t": "2025-03-31T11:00:00",
+      "vibration": 0.09171,
+      "strain": 291.258,
+      "temperature": 34.912,
+      "displacement": 1.6566
+    },
+    {
+      "t": "2025-03-31T18:00:00",
+      "vibration": 0.16741,
+      "strain": 357.875,
+      "temperature": 28.262,
+      "displacement": 2.3345
+    },
+    {
+      "t": "2025-04-01T01:00:00",
+      "vibration": 0.09062,
+      "strain": 212.902,
+      "temperature": 21.069,
+      "displacement": 1.4804
+    },
+    {
+      "t": "2025-04-01T08:00:00",
+      "vibration": 0.14554,
+      "strain": 334.302,
+      "temperature": 30.112,
+      "displacement": 2.4802
+    },
+    {
+      "t": "2025-04-01T15:00:00",
+      "vibration": 0.10892,
+      "strain": 271.417,
+      "temperature": 32.302,
+      "displacement": 1.7649
+    },
+    {
+      "t": "2025-04-01T22:00:00",
+      "vibration": 0.07952,
+      "strain": 225.399,
+      "temperature": 20.567,
+      "displacement": 1.4785
+    },
+    {
+      "t": "2025-04-02T05:00:00",
+      "vibration": 0.1129,
+      "strain": 240.249,
+      "temperature": 27.106,
+      "displacement": 1.6658
+    },
+    {
+      "t": "2025-04-02T12:00:00",
+      "vibration": 0.12177,
+      "strain": 262.452,
+      "temperature": 33.784,
+      "displacement": 1.6619
+    },
+    {
+      "t": "2025-04-02T19:00:00",
+      "vibration": 0.12031,
+      "strain": 288.201,
+      "temperature": 27.173,
+      "displacement": 2.1521
+    },
+    {
+      "t": "2025-04-03T02:00:00",
+      "vibration": 0.07461,
+      "strain": 196.977,
+      "temperature": 23.751,
+      "displacement": 1.4629
+    },
+    {
+      "t": "2025-04-03T09:00:00",
+      "vibration": 0.11469,
+      "strain": 302.058,
+      "temperature": 32.124,
+      "displacement": 2.273
+    },
+    {
+      "t": "2025-04-03T16:00:00",
+      "vibration": 0.10693,
+      "strain": 270.012,
+      "temperature": 29.68,
+      "displacement": 1.8031
+    },
+    {
+      "t": "2025-04-03T23:00:00",
+      "vibration": 0.09312,
+      "strain": 200.263,
+      "temperature": 20.911,
+      "displacement": 1.3497
+    },
+    {
+      "t": "2025-04-04T06:00:00",
+      "vibration": 0.0942,
+      "strain": 269.345,
+      "temperature": 26.912,
+      "displacement": 1.9335
+    },
+    {
+      "t": "2025-04-04T13:00:00",
+      "vibration": 0.09855,
+      "strain": 212.863,
+      "temperature": 33.046,
+      "displacement": 1.6481
+    },
+    {
+      "t": "2025-04-04T20:00:00",
+      "vibration": 0.11873,
+      "strain": 274.934,
+      "temperature": 25.806,
+      "displacement": 1.8443
+    },
+    {
+      "t": "2025-04-05T04:00:00",
+      "vibration": 0.07858,
+      "strain": 199.789,
+      "temperature": 22.136,
+      "displacement": 1.4714
+    },
+    {
+      "t": "2025-04-05T11:00:00",
+      "vibration": 0.1063,
+      "strain": 251.386,
+      "temperature": 33.527,
+      "displacement": 1.6639
+    },
+    {
+      "t": "2025-04-05T18:00:00",
+      "vibration": 0.12853,
+      "strain": 319.613,
+      "temperature": 28.141,
+      "displacement": 2.5816
+    },
+    {
+      "t": "2025-04-06T02:00:00",
+      "vibration": 0.08959,
+      "strain": 201.564,
+      "temperature": 24.109,
+      "displacement": 1.3926
+    },
+    {
+      "t": "2025-04-06T09:00:00",
+      "vibration": 0.11234,
+      "strain": 306.961,
+      "temperature": 30.325,
+      "displacement": 2.2512
+    },
+    {
+      "t": "2025-04-06T16:00:00",
+      "vibration": 0.09163,
+      "strain": 278.887,
+      "temperature": 34.066,
+      "displacement": 1.99
+    },
+    {
+      "t": "2025-04-06T23:00:00",
+      "vibration": 0.06979,
+      "strain": 197.78,
+      "temperature": 21.662,
+      "displacement": 1.2845
+    },
+    {
+      "t": "2025-04-07T06:00:00",
+      "vibration": 0.11344,
+      "strain": 269.493,
+      "temperature": 28.958,
+      "displacement": 1.9389
+    },
+    {
+      "t": "2025-04-07T13:00:00",
+      "vibration": 0.0771,
+      "strain": 229.925,
+      "temperature": 34.248,
+      "displacement": 1.7362
+    },
+    {
+      "t": "2025-04-07T20:00:00",
+      "vibration": 0.11,
+      "strain": 262.578,
+      "temperature": 22.107,
+      "displacement": 1.9184
+    },
+    {
+      "t": "2025-04-08T04:00:00",
+      "vibration": 0.08235,
+      "strain": 213.226,
+      "temperature": 25.264,
+      "displacement": 1.5217
+    },
+    {
+      "t": "2025-04-08T11:00:00",
+      "vibration": 0.09309,
+      "strain": 243.07,
+      "temperature": 34.759,
+      "displacement": 1.9157
+    },
+    {
+      "t": "2025-04-08T18:00:00",
+      "vibration": 0.13426,
+      "strain": 314.6,
+      "temperature": 27.739,
+      "displacement": 2.2574
+    },
+    {
+      "t": "2025-04-09T01:00:00",
+      "vibration": 0.07506,
+      "strain": 197.997,
+      "temperature": 22.374,
+      "displacement": 1.3859
+    },
+    {
+      "t": "2025-04-09T08:00:00",
+      "vibration": 0.14291,
+      "strain": 319.748,
+      "temperature": 32.817,
+      "displacement": 2.5114
+    },
+    {
+      "t": "2025-04-09T15:00:00",
+      "vibration": 0.08067,
+      "strain": 244.181,
+      "temperature": 31.71,
+      "displacement": 1.7969
+    },
+    {
+      "t": "2025-04-09T22:00:00",
+      "vibration": 0.07741,
+      "strain": 221.679,
+      "temperature": 22.311,
+      "displacement": 1.52
+    },
+    {
+      "t": "2025-04-10T05:00:00",
+      "vibration": 0.08197,
+      "strain": 232.289,
+      "temperature": 27.307,
+      "displacement": 1.5964
+    },
+    {
+      "t": "2025-04-10T12:00:00",
+      "vibration": 0.07901,
+      "strain": 236.988,
+      "temperature": 35.259,
+      "displacement": 1.5681
+    },
+    {
+      "t": "2025-04-10T19:00:00",
+      "vibration": 0.11959,
+      "strain": 295.006,
+      "temperature": 24.966,
+      "displacement": 2.0903
+    },
+    {
+      "t": "2025-04-11T02:00:00",
+      "vibration": 0.08241,
+      "strain": 201.206,
+      "temperature": 23.028,
+      "displacement": 1.3404
+    },
+    {
+      "t": "2025-04-11T09:00:00",
+      "vibration": 0.11485,
+      "strain": 313.552,
+      "temperature": 31.487,
+      "displacement": 2.2685
+    },
+    {
+      "t": "2025-04-11T16:00:00",
+      "vibration": 0.12297,
+      "strain": 262.33,
+      "temperature": 29.993,
+      "displacement": 1.9827
+    },
+    {
+      "t": "2025-04-11T23:00:00",
+      "vibration": 0.0852,
+      "strain": 207.337,
+      "temperature": 21.568,
+      "displacement": 1.4231
+    },
+    {
+      "t": "2025-04-12T06:00:00",
+      "vibration": 0.09579,
+      "strain": 270.588,
+      "temperature": 26.033,
+      "displacement": 1.9767
+    },
+    {
+      "t": "2025-04-12T13:00:00",
+      "vibration": 0.0966,
+      "strain": 225.129,
+      "temperature": 33.987,
+      "displacement": 1.6343
+    },
+    {
+      "t": "2025-04-12T20:00:00",
+      "vibration": 0.10704,
+      "strain": 259.17,
+      "temperature": 25.843,
+      "displacement": 1.9489
+    },
+    {
+      "t": "2025-04-13T03:00:00",
+      "vibration": 0.08653,
+      "strain": 199.493,
+      "temperature": 23.103,
+      "displacement": 1.3979
+    },
+    {
+      "t": "2025-04-13T10:00:00",
+      "vibration": 0.10214,
+      "strain": 280.576,
+      "temperature": 30.815,
+      "displacement": 1.8742
+    },
+    {
+      "t": "2025-04-13T17:00:00",
+      "vibration": 0.1078,
+      "strain": 307.233,
+      "temperature": 28.453,
+      "displacement": 2.2315
+    },
+    {
+      "t": "2025-04-14T00:00:00",
+      "vibration": 0.08397,
+      "strain": 207.727,
+      "temperature": 22.189,
+      "displacement": 1.4062
+    },
+    {
+      "t": "2025-04-14T07:00:00",
+      "vibration": 0.11966,
+      "strain": 312.352,
+      "temperature": 29.013,
+      "displacement": 2.3273
+    },
+    {
+      "t": "2025-04-14T14:00:00",
+      "vibration": 0.08463,
+      "strain": 232.209,
+      "temperature": 33.121,
+      "displacement": 1.7127
+    },
+    {
+      "t": "2025-04-14T21:00:00",
+      "vibration": 0.09219,
+      "strain": 224.727,
+      "temperature": 22.639,
+      "displacement": 1.4511
+    },
+    {
+      "t": "2025-04-15T04:00:00",
+      "vibration": 0.10035,
+      "strain": 218.104,
+      "temperature": 25.424,
+      "displacement": 1.4559
+    },
+    {
+      "t": "2025-04-15T11:00:00",
+      "vibration": 0.09402,
+      "strain": 256.256,
+      "temperature": 33.986,
+      "displacement": 1.7566
+    },
+    {
+      "t": "2025-04-15T18:00:00",
+      "vibration": 0.10687,
+      "strain": 311.391,
+      "temperature": 27.909,
+      "displacement": 2.2906
+    },
+    {
+      "t": "2025-04-16T03:00:00",
+      "vibration": 0.09004,
+      "strain": 194.244,
+      "temperature": 21.318,
+      "displacement": 1.4299
+    },
+    {
+      "t": "2025-04-16T10:00:00",
+      "vibration": 0.10316,
+      "strain": 288.397,
+      "temperature": 34.295,
+      "displacement": 2.1072
+    },
+    {
+      "t": "2025-04-16T17:00:00",
+      "vibration": 0.10894,
+      "strain": 302.053,
+      "temperature": 27.328,
+      "displacement": 2.2678
+    },
+    {
+      "t": "2025-04-17T00:00:00",
+      "vibration": 0.0768,
+      "strain": 198.324,
+      "temperature": 21.625,
+      "displacement": 1.4527
+    },
+    {
+      "t": "2025-04-17T07:00:00",
+      "vibration": 0.1096,
+      "strain": 310.007,
+      "temperature": 29.102,
+      "displacement": 2.265
+    },
+    {
+      "t": "2025-04-17T14:00:00",
+      "vibration": 0.08002,
+      "strain": 235.746,
+      "temperature": 34.598,
+      "displacement": 1.6448
+    },
+    {
+      "t": "2025-04-17T21:00:00",
+      "vibration": 0.0998,
+      "strain": 221.786,
+      "temperature": 22.307,
+      "displacement": 1.7065
+    },
+    {
+      "t": "2025-04-18T04:00:00",
+      "vibration": 0.10319,
+      "strain": 214.909,
+      "temperature": 26.403,
+      "displacement": 1.5782
+    },
+    {
+      "t": "2025-04-18T11:00:00",
+      "vibration": 0.0986,
+      "strain": 252.669,
+      "temperature": 35.077,
+      "displacement": 1.7702
+    },
+    {
+      "t": "2025-04-18T18:00:00",
+      "vibration": 0.14013,
+      "strain": 315.384,
+      "temperature": 27.734,
+      "displacement": 2.306
+    },
+    {
+      "t": "2025-04-19T01:00:00",
+      "vibration": 0.09659,
+      "strain": 205.249,
+      "temperature": 22.647,
+      "displacement": 1.321
+    },
+    {
+      "t": "2025-04-19T08:00:00",
+      "vibration": 0.1406,
+      "strain": 331.614,
+      "temperature": 29.935,
+      "displacement": 2.3783
+    },
+    {
+      "t": "2025-04-19T15:00:00",
+      "vibration": 0.13909,
+      "strain": 336.764,
+      "temperature": 31.594,
+      "displacement": 2.2697
+    },
+    {
+      "t": "2025-04-19T22:00:00",
+      "vibration": 0.16508,
+      "strain": 259.859,
+      "temperature": 20.163,
+      "displacement": 1.8244
+    },
+    {
+      "t": "2025-04-20T05:00:00",
+      "vibration": 0.10781,
+      "strain": 306.16,
+      "temperature": 25.164,
+      "displacement": 2.0708
+    },
+    {
+      "t": "2025-04-20T13:00:00",
+      "vibration": 0.13275,
+      "strain": 290.717,
+      "temperature": 33.281,
+      "displacement": 1.7164
+    },
+    {
+      "t": "2025-04-20T20:00:00",
+      "vibration": 0.16503,
+      "strain": 308.399,
+      "temperature": 24.142,
+      "displacement": 2.0749
+    },
+    {
+      "t": "2025-04-21T03:00:00",
+      "vibration": 0.11217,
+      "strain": 303.591,
+      "temperature": 22.093,
+      "displacement": 1.9657
+    },
+    {
+      "t": "2025-04-21T11:00:00",
+      "vibration": 0.13227,
+      "strain": 305.628,
+      "temperature": 31.002,
+      "displacement": 1.905
+    },
+    {
+      "t": "2025-04-21T19:00:00",
+      "vibration": 0.14166,
+      "strain": 401.604,
+      "temperature": 26.47,
+      "displacement": 2.5744
+    },
+    {
+      "t": "2025-04-22T02:00:00",
+      "vibration": 0.12278,
+      "strain": 276.691,
+      "temperature": 21.752,
+      "displacement": 1.6713
+    },
+    {
+      "t": "2025-04-22T10:00:00",
+      "vibration": 0.18194,
+      "strain": 362.71,
+      "temperature": 32.336,
+      "displacement": 2.3491
+    },
+    {
+      "t": "2025-04-22T17:00:00",
+      "vibration": 0.14356,
+      "strain": 392.91,
+      "temperature": 28.715,
+      "displacement": 2.7588
+    },
+    {
+      "t": "2025-04-23T01:00:00",
+      "vibration": 0.14678,
+      "strain": 249.472,
+      "temperature": 19.282,
+      "displacement": 1.7804
+    },
+    {
+      "t": "2025-04-23T09:00:00",
+      "vibration": 0.16545,
+      "strain": 392.831,
+      "temperature": 31.786,
+      "displacement": 2.6186
+    },
+    {
+      "t": "2025-04-23T16:00:00",
+      "vibration": 0.15585,
+      "strain": 360.278,
+      "temperature": 30.622,
+      "displacement": 2.2212
+    },
+    {
+      "t": "2025-04-23T23:00:00",
+      "vibration": 0.11226,
+      "strain": 278.883,
+      "temperature": 22.421,
+      "displacement": 1.6849
+    },
+    {
+      "t": "2025-04-24T06:00:00",
+      "vibration": 0.14626,
+      "strain": 329.853,
+      "temperature": 28.554,
+      "displacement": 2.5464
+    },
+    {
+      "t": "2025-04-24T13:00:00",
+      "vibration": 0.10471,
+      "strain": 298.477,
+      "temperature": 32.658,
+      "displacement": 1.9481
+    },
+    {
+      "t": "2025-04-24T20:00:00",
+      "vibration": 0.14749,
+      "strain": 356.375,
+      "temperature": 26.38,
+      "displacement": 2.3581
+    },
+    {
+      "t": "2025-04-25T03:00:00",
+      "vibration": 0.10407,
+      "strain": 275.108,
+      "temperature": 24.671,
+      "displacement": 1.6027
+    },
+    {
+      "t": "2025-04-25T10:00:00",
+      "vibration": 0.13467,
+      "strain": 340.809,
+      "temperature": 33.694,
+      "displacement": 2.3977
+    },
+    {
+      "t": "2025-04-25T17:00:00",
+      "vibration": 0.1834,
+      "strain": 356.435,
+      "temperature": 28.932,
+      "displacement": 2.5602
+    },
+    {
+      "t": "2025-04-26T00:00:00",
+      "vibration": 0.15713,
+      "strain": 271.406,
+      "temperature": 20.342,
+      "displacement": 1.6915
+    },
+    {
+      "t": "2025-04-26T07:00:00",
+      "vibration": 0.18014,
+      "strain": 381.981,
+      "temperature": 30.832,
+      "displacement": 2.4957
+    },
+    {
+      "t": "2025-04-26T14:00:00",
+      "vibration": 0.10851,
+      "strain": 296.839,
+      "temperature": 31.859,
+      "displacement": 2.0635
+    },
+    {
+      "t": "2025-04-26T21:00:00",
+      "vibration": 0.13329,
+      "strain": 316.297,
+      "temperature": 22.14,
+      "displacement": 1.8879
+    },
+    {
+      "t": "2025-04-27T04:00:00",
+      "vibration": 0.11523,
+      "strain": 301.329,
+      "temperature": 23.414,
+      "displacement": 1.8912
+    },
+    {
+      "t": "2025-04-27T11:00:00",
+      "vibration": 0.1612,
+      "strain": 311.805,
+      "temperature": 33.712,
+      "displacement": 2.1787
+    },
+    {
+      "t": "2025-04-27T18:00:00",
+      "vibration": 0.17161,
+      "strain": 372.854,
+      "temperature": 28.155,
+      "displacement": 2.7039
+    },
+    {
+      "t": "2025-04-28T01:00:00",
+      "vibration": 0.11855,
+      "strain": 256.676,
+      "temperature": 19.587,
+      "displacement": 1.8295
+    },
+    {
+      "t": "2025-04-28T09:00:00",
+      "vibration": 0.1659,
+      "strain": 387.913,
+      "temperature": 32.212,
+      "displacement": 2.7492
+    },
+    {
+      "t": "2025-04-28T17:00:00",
+      "vibration": 0.18357,
+      "strain": 375.154,
+      "temperature": 28.447,
+      "displacement": 2.6231
+    },
+    {
+      "t": "2025-04-29T00:00:00",
+      "vibration": 0.13112,
+      "strain": 291.64,
+      "temperature": 22.123,
+      "displacement": 2.0954
+    },
+    {
+      "t": "2025-04-29T08:00:00",
+      "vibration": 0.20148,
+      "strain": 378.773,
+      "temperature": 29.757,
+      "displacement": 2.5558
+    },
+    {
+      "t": "2025-04-29T16:00:00",
+      "vibration": 0.10465,
+      "strain": 332.59,
+      "temperature": 30.902,
+      "displacement": 2.4174
+    },
+    {
+      "t": "2025-04-29T23:00:00",
+      "vibration": 0.12982,
+      "strain": 281.864,
+      "temperature": 23.053,
+      "displacement": 1.8032
+    },
+    {
+      "t": "2025-04-30T06:00:00",
+      "vibration": 0.18443,
+      "strain": 326.558,
+      "temperature": 25.94,
+      "displacement": 2.1812
+    },
+    {
+      "t": "2025-04-30T13:00:00",
+      "vibration": 0.15372,
+      "strain": 298.323,
+      "temperature": 33.363,
+      "displacement": 2.0269
+    },
+    {
+      "t": "2025-04-30T20:00:00",
+      "vibration": 0.13344,
+      "strain": 302.897,
+      "temperature": 22.294,
+      "displacement": 2.1242
+    },
+    {
+      "t": "2025-05-01T04:00:00",
+      "vibration": 0.1313,
+      "strain": 272.104,
+      "temperature": 23.798,
+      "displacement": 1.7618
+    },
+    {
+      "t": "2025-05-01T11:00:00",
+      "vibration": 0.13658,
+      "strain": 327.565,
+      "temperature": 33.102,
+      "displacement": 2.2343
+    },
+    {
+      "t": "2025-05-01T18:00:00",
+      "vibration": 0.16667,
+      "strain": 381.1,
+      "temperature": 25.765,
+      "displacement": 2.5561
+    },
+    {
+      "t": "2025-05-02T02:00:00",
+      "vibration": 0.10201,
+      "strain": 299.335,
+      "temperature": 22.892,
+      "displacement": 2.0399
+    },
+    {
+      "t": "2025-05-02T09:00:00",
+      "vibration": 0.20938,
+      "strain": 362.949,
+      "temperature": 28.278,
+      "displacement": 2.6641
+    },
+    {
+      "t": "2025-05-02T16:00:00",
+      "vibration": 0.16264,
+      "strain": 339.716,
+      "temperature": 28.851,
+      "displacement": 2.2968
+    },
+    {
+      "t": "2025-05-02T23:00:00",
+      "vibration": 0.12483,
+      "strain": 260.291,
+      "temperature": 21.254,
+      "displacement": 1.8149
+    },
+    {
+      "t": "2025-05-03T06:00:00",
+      "vibration": 0.17965,
+      "strain": 308.565,
+      "temperature": 25.725,
+      "displacement": 2.331
+    },
+    {
+      "t": "2025-05-03T13:00:00",
+      "vibration": 0.10132,
+      "strain": 306.43,
+      "temperature": 33.945,
+      "displacement": 2.1081
+    },
+    {
+      "t": "2025-05-03T21:00:00",
+      "vibration": 0.14804,
+      "strain": 287.282,
+      "temperature": 23.792,
+      "displacement": 1.9785
+    },
+    {
+      "t": "2025-05-04T04:00:00",
+      "vibration": 0.13612,
+      "strain": 298.324,
+      "temperature": 24.181,
+      "displacement": 1.9723
+    },
+    {
+      "t": "2025-05-04T12:00:00",
+      "vibration": 0.15398,
+      "strain": 313.006,
+      "temperature": 32.577,
+      "displacement": 2.0785
+    },
+    {
+      "t": "2025-05-04T19:00:00",
+      "vibration": 0.18996,
+      "strain": 362.155,
+      "temperature": 24.926,
+      "displacement": 2.3812
+    },
+    {
+      "t": "2025-05-05T02:00:00",
+      "vibration": 0.13174,
+      "strain": 246.541,
+      "temperature": 20.524,
+      "displacement": 1.8148
+    },
+    {
+      "t": "2025-05-05T09:00:00",
+      "vibration": 0.15909,
+      "strain": 377.171,
+      "temperature": 30.159,
+      "displacement": 2.3376
+    },
+    {
+      "t": "2025-05-05T16:00:00",
+      "vibration": 0.13731,
+      "strain": 322.538,
+      "temperature": 29.382,
+      "displacement": 2.4604
+    },
+    {
+      "t": "2025-05-05T23:00:00",
+      "vibration": 0.13184,
+      "strain": 263.235,
+      "temperature": 20.256,
+      "displacement": 1.8079
+    },
+    {
+      "t": "2025-05-06T06:00:00",
+      "vibration": 0.12582,
+      "strain": 303.775,
+      "temperature": 23.991,
+      "displacement": 2.197
+    },
+    {
+      "t": "2025-05-06T13:00:00",
+      "vibration": 0.13178,
+      "strain": 302.796,
+      "temperature": 32.297,
+      "displacement": 1.7157
+    },
+    {
+      "t": "2025-05-06T20:00:00",
+      "vibration": 0.15341,
+      "strain": 317.735,
+      "temperature": 21.889,
+      "displacement": 2.0332
+    },
+    {
+      "t": "2025-05-07T03:00:00",
+      "vibration": 0.13217,
+      "strain": 237.045,
+      "temperature": 20.391,
+      "displacement": 1.8782
+    },
+    {
+      "t": "2025-05-07T10:00:00",
+      "vibration": 0.13052,
+      "strain": 343.279,
+      "temperature": 32.77,
+      "displacement": 2.4321
+    },
+    {
+      "t": "2025-05-07T17:00:00",
+      "vibration": 0.16982,
+      "strain": 377.338,
+      "temperature": 27.674,
+      "displacement": 2.4947
+    },
+    {
+      "t": "2025-05-08T00:00:00",
+      "vibration": 0.14917,
+      "strain": 262.928,
+      "temperature": 21.232,
+      "displacement": 1.7742
+    },
+    {
+      "t": "2025-05-08T07:00:00",
+      "vibration": 0.14567,
+      "strain": 370.206,
+      "temperature": 26.352,
+      "displacement": 2.6834
+    },
+    {
+      "t": "2025-05-08T14:00:00",
+      "vibration": 0.13517,
+      "strain": 310.076,
+      "temperature": 34.328,
+      "displacement": 1.8484
+    },
+    {
+      "t": "2025-05-08T21:00:00",
+      "vibration": 0.15231,
+      "strain": 326.479,
+      "temperature": 20.908,
+      "displacement": 2.3022
+    },
+    {
+      "t": "2025-05-09T04:00:00",
+      "vibration": 0.15032,
+      "strain": 287.909,
+      "temperature": 23.054,
+      "displacement": 1.8736
+    },
+    {
+      "t": "2025-05-09T11:00:00",
+      "vibration": 0.16317,
+      "strain": 289.709,
+      "temperature": 31.233,
+      "displacement": 1.8954
+    },
+    {
+      "t": "2025-05-09T18:00:00",
+      "vibration": 0.17459,
+      "strain": 368.034,
+      "temperature": 27.551,
+      "displacement": 2.9472
+    },
+    {
+      "t": "2025-05-10T01:00:00",
+      "vibration": 0.13035,
+      "strain": 264.625,
+      "temperature": 19.378,
+      "displacement": 1.735
+    },
+    {
+      "t": "2025-05-10T08:00:00",
+      "vibration": 0.12776,
+      "strain": 326.355,
+      "temperature": 28.877,
+      "displacement": 2.2977
+    },
+    {
+      "t": "2025-05-10T15:00:00",
+      "vibration": 0.10461,
+      "strain": 244.629,
+      "temperature": 31.663,
+      "displacement": 1.8529
+    },
+    {
+      "t": "2025-05-10T22:00:00",
+      "vibration": 0.08101,
+      "strain": 200.211,
+      "temperature": 19.777,
+      "displacement": 1.4794
+    },
+    {
+      "t": "2025-05-11T05:00:00",
+      "vibration": 0.09891,
+      "strain": 233.092,
+      "temperature": 24.972,
+      "displacement": 1.5983
+    },
+    {
+      "t": "2025-05-11T12:00:00",
+      "vibration": 0.08317,
+      "strain": 226.493,
+      "temperature": 31.919,
+      "displacement": 1.7174
+    },
+    {
+      "t": "2025-05-11T19:00:00",
+      "vibration": 0.12768,
+      "strain": 304.076,
+      "temperature": 26.67,
+      "displacement": 2.1224
+    },
+    {
+      "t": "2025-05-12T02:00:00",
+      "vibration": 0.10143,
+      "strain": 191.461,
+      "temperature": 21.555,
+      "displacement": 1.4071
+    },
+    {
+      "t": "2025-05-12T09:00:00",
+      "vibration": 0.12425,
+      "strain": 310.646,
+      "temperature": 29.831,
+      "displacement": 2.2969
+    },
+    {
+      "t": "2025-05-12T16:00:00",
+      "vibration": 0.10556,
+      "strain": 269.124,
+      "temperature": 28.687,
+      "displacement": 2.0381
+    },
+    {
+      "t": "2025-05-12T23:00:00",
+      "vibration": 0.08475,
+      "strain": 197.758,
+      "temperature": 19.21,
+      "displacement": 1.2519
+    },
+    {
+      "t": "2025-05-13T06:00:00",
+      "vibration": 0.12517,
+      "strain": 256.549,
+      "temperature": 26.571,
+      "displacement": 1.9866
+    },
+    {
+      "t": "2025-05-13T13:00:00",
+      "vibration": 0.08755,
+      "strain": 214.551,
+      "temperature": 29.637,
+      "displacement": 1.656
+    },
+    {
+      "t": "2025-05-13T20:00:00",
+      "vibration": 0.09577,
+      "strain": 251.657,
+      "temperature": 22.21,
+      "displacement": 1.9634
+    },
+    {
+      "t": "2025-05-14T03:00:00",
+      "vibration": 0.09781,
+      "strain": 199.874,
+      "temperature": 22.554,
+      "displacement": 1.4427
+    },
+    {
+      "t": "2025-05-14T10:00:00",
+      "vibration": 0.1131,
+      "strain": 267.337,
+      "temperature": 30.355,
+      "displacement": 1.8453
+    },
+    {
+      "t": "2025-05-14T17:00:00",
+      "vibration": 0.12311,
+      "strain": 306.954,
+      "temperature": 26.422,
+      "displacement": 2.2315
+    },
+    {
+      "t": "2025-05-15T00:00:00",
+      "vibration": 0.06324,
+      "strain": 202.184,
+      "temperature": 17.832,
+      "displacement": 1.3383
+    },
+    {
+      "t": "2025-05-15T07:00:00",
+      "vibration": 0.12044,
+      "strain": 285.8,
+      "temperature": 24.752,
+      "displacement": 2.0585
+    },
+    {
+      "t": "2025-05-15T14:00:00",
+      "vibration": 0.08139,
+      "strain": 220.073,
+      "temperature": 30.07,
+      "displacement": 1.4852
+    },
+    {
+      "t": "2025-05-15T21:00:00",
+      "vibration": 0.09321,
+      "strain": 218.647,
+      "temperature": 22.059,
+      "displacement": 1.608
+    },
+    {
+      "t": "2025-05-16T04:00:00",
+      "vibration": 0.07188,
+      "strain": 206.981,
+      "temperature": 22.878,
+      "displacement": 1.4746
+    },
+    {
+      "t": "2025-05-16T11:00:00",
+      "vibration": 0.08703,
+      "strain": 250.421,
+      "temperature": 31.037,
+      "displacement": 1.7631
+    },
+    {
+      "t": "2025-05-16T18:00:00",
+      "vibration": 0.1467,
+      "strain": 311.762,
+      "temperature": 24.244,
+      "displacement": 2.2331
+    },
+    {
+      "t": "2025-05-17T01:00:00",
+      "vibration": 0.08707,
+      "strain": 200.894,
+      "temperature": 19.855,
+      "displacement": 1.3757
+    },
+    {
+      "t": "2025-05-17T08:00:00",
+      "vibration": 0.11247,
+      "strain": 316.86,
+      "temperature": 27.964,
+      "displacement": 2.5001
+    },
+    {
+      "t": "2025-05-17T15:00:00",
+      "vibration": 0.10655,
+      "strain": 247.114,
+      "temperature": 28.94,
+      "displacement": 1.6904
+    },
+    {
+      "t": "2025-05-17T22:00:00",
+      "vibration": 0.08058,
+      "strain": 206.389,
+      "temperature": 18.35,
+      "displacement": 1.5189
+    },
+    {
+      "t": "2025-05-18T05:00:00",
+      "vibration": 0.09737,
+      "strain": 225.325,
+      "temperature": 24.168,
+      "displacement": 1.6567
+    },
+    {
+      "t": "2025-05-18T12:00:00",
+      "vibration": 0.08742,
+      "strain": 233.368,
+      "temperature": 31.716,
+      "displacement": 1.6121
+    },
+    {
+      "t": "2025-05-18T19:00:00",
+      "vibration": 0.10085,
+      "strain": 293.397,
+      "temperature": 24.348,
+      "displacement": 2.0726
+    },
+    {
+      "t": "2025-05-19T02:00:00",
+      "vibration": 0.07632,
+      "strain": 190.628,
+      "temperature": 21.042,
+      "displacement": 1.4183
+    },
+    {
+      "t": "2025-05-19T09:00:00",
+      "vibration": 0.1091,
+      "strain": 298.638,
+      "temperature": 28.8,
+      "displacement": 2.2779
+    },
+    {
+      "t": "2025-05-19T16:00:00",
+      "vibration": 0.0942,
+      "strain": 267.105,
+      "temperature": 27.124,
+      "displacement": 1.8319
+    },
+    {
+      "t": "2025-05-19T23:00:00",
+      "vibration": 0.09878,
+      "strain": 185.496,
+      "temperature": 18.8,
+      "displacement": 1.3217
+    },
+    {
+      "t": "2025-05-20T06:00:00",
+      "vibration": 0.10428,
+      "strain": 257.765,
+      "temperature": 26.833,
+      "displacement": 1.8095
+    },
+    {
+      "t": "2025-05-20T13:00:00",
+      "vibration": 0.09094,
+      "strain": 218.236,
+      "temperature": 29.503,
+      "displacement": 1.7665
+    },
+    {
+      "t": "2025-05-20T20:00:00",
+      "vibration": 0.10841,
+      "strain": 258.128,
+      "temperature": 21.062,
+      "displacement": 1.9715
+    },
+    {
+      "t": "2025-05-21T03:00:00",
+      "vibration": 0.09757,
+      "strain": 197.037,
+      "temperature": 19.324,
+      "displacement": 1.4865
+    },
+    {
+      "t": "2025-05-21T10:00:00",
+      "vibration": 0.11489,
+      "strain": 267.797,
+      "temperature": 29.571,
+      "displacement": 2.0305
+    },
+    {
+      "t": "2025-05-21T17:00:00",
+      "vibration": 0.10017,
+      "strain": 305.495,
+      "temperature": 25.898,
+      "displacement": 2.1373
+    },
+    {
+      "t": "2025-05-22T00:00:00",
+      "vibration": 0.09509,
+      "strain": 184.729,
+      "temperature": 18.463,
+      "displacement": 1.4633
+    },
+    {
+      "t": "2025-05-22T07:00:00",
+      "vibration": 0.12133,
+      "strain": 287.772,
+      "temperature": 24.033,
+      "displacement": 2.2431
+    },
+    {
+      "t": "2025-05-22T14:00:00",
+      "vibration": 0.07628,
+      "strain": 214.178,
+      "temperature": 27.518,
+      "displacement": 1.5338
+    },
+    {
+      "t": "2025-05-22T21:00:00",
+      "vibration": 0.08943,
+      "strain": 217.345,
+      "temperature": 18.812,
+      "displacement": 1.4968
+    },
+    {
+      "t": "2025-05-23T04:00:00",
+      "vibration": 0.07969,
+      "strain": 203.658,
+      "temperature": 21.576,
+      "displacement": 1.4065
+    },
+    {
+      "t": "2025-05-23T12:00:00",
+      "vibration": 0.08803,
+      "strain": 229.198,
+      "temperature": 30.43,
+      "displacement": 1.7647
+    },
+    {
+      "t": "2025-05-23T19:00:00",
+      "vibration": 0.11866,
+      "strain": 299.151,
+      "temperature": 23.498,
+      "displacement": 2.2775
+    },
+    {
+      "t": "2025-05-24T03:00:00",
+      "vibration": 0.05651,
+      "strain": 206.79,
+      "temperature": 20.676,
+      "displacement": 1.4706
+    },
+    {
+      "t": "2025-05-24T10:00:00",
+      "vibration": 0.11294,
+      "strain": 265.833,
+      "temperature": 29.561,
+      "displacement": 1.852
+    },
+    {
+      "t": "2025-05-24T17:00:00",
+      "vibration": 0.12272,
+      "strain": 296.377,
+      "temperature": 25.795,
+      "displacement": 2.0851
+    },
+    {
+      "t": "2025-05-25T01:00:00",
+      "vibration": 0.07511,
+      "strain": 198.885,
+      "temperature": 17.225,
+      "displacement": 1.302
+    },
+    {
+      "t": "2025-05-25T09:00:00",
+      "vibration": 0.12797,
+      "strain": 303.755,
+      "temperature": 30.872,
+      "displacement": 2.1675
+    },
+    {
+      "t": "2025-05-25T16:00:00",
+      "vibration": 0.09906,
+      "strain": 267.832,
+      "temperature": 28.467,
+      "displacement": 1.9658
+    },
+    {
+      "t": "2025-05-25T23:00:00",
+      "vibration": 0.07586,
+      "strain": 211.07,
+      "temperature": 18.379,
+      "displacement": 1.3015
+    },
+    {
+      "t": "2025-05-26T07:00:00",
+      "vibration": 0.13418,
+      "strain": 302.048,
+      "temperature": 25.888,
+      "displacement": 2.0288
+    },
+    {
+      "t": "2025-05-26T14:00:00",
+      "vibration": 0.07243,
+      "strain": 231.827,
+      "temperature": 30.941,
+      "displacement": 1.5918
+    },
+    {
+      "t": "2025-05-26T21:00:00",
+      "vibration": 0.19626,
+      "strain": 383.32,
+      "temperature": 21.36,
+      "displacement": 2.4564
+    },
+    {
+      "t": "2025-05-27T04:00:00",
+      "vibration": 0.19084,
+      "strain": 367.679,
+      "temperature": 21.533,
+      "displacement": 2.1001
+    },
+    {
+      "t": "2025-05-27T12:00:00",
+      "vibration": 0.25612,
+      "strain": 350.053,
+      "temperature": 30.414,
+      "displacement": 3.0314
+    },
+    {
+      "t": "2025-05-27T19:00:00",
+      "vibration": 0.24721,
+      "strain": 455.748,
+      "temperature": 20.422,
+      "displacement": 2.5828
+    },
+    {
+      "t": "2025-05-28T02:00:00",
+      "vibration": 0.19865,
+      "strain": 341.91,
+      "temperature": 20.415,
+      "displacement": 2.3607
+    },
+    {
+      "t": "2025-05-28T09:00:00",
+      "vibration": 0.24214,
+      "strain": 501.983,
+      "temperature": 27.578,
+      "displacement": 3.1919
+    },
+    {
+      "t": "2025-05-28T16:00:00",
+      "vibration": 0.20817,
+      "strain": 418.315,
+      "temperature": 26.418,
+      "displacement": 2.8723
+    },
+    {
+      "t": "2025-05-28T23:00:00",
+      "vibration": 0.18535,
+      "strain": 310.849,
+      "temperature": 16.521,
+      "displacement": 2.179
+    },
+    {
+      "t": "2025-05-29T06:00:00",
+      "vibration": 0.19755,
+      "strain": 444.056,
+      "temperature": 24.293,
+      "displacement": 2.7709
+    },
+    {
+      "t": "2025-05-29T13:00:00",
+      "vibration": 0.18818,
+      "strain": 418.299,
+      "temperature": 31.403,
+      "displacement": 2.6163
+    },
+    {
+      "t": "2025-05-29T20:00:00",
+      "vibration": 0.21633,
+      "strain": 387.012,
+      "temperature": 21.032,
+      "displacement": 2.8751
+    },
+    {
+      "t": "2025-05-30T03:00:00",
+      "vibration": 0.18768,
+      "strain": 378.847,
+      "temperature": 17.605,
+      "displacement": 2.0718
+    },
+    {
+      "t": "2025-05-30T10:00:00",
+      "vibration": 0.22457,
+      "strain": 439.399,
+      "temperature": 27.42,
+      "displacement": 2.8876
+    },
+    {
+      "t": "2025-05-30T17:00:00",
+      "vibration": 0.21578,
+      "strain": 505.548,
+      "temperature": 25.543,
+      "displacement": 2.794
+    },
+    {
+      "t": "2025-05-31T00:00:00",
+      "vibration": 0.15684,
+      "strain": 322.155,
+      "temperature": 18.469,
+      "displacement": 2.4364
+    },
+    {
+      "t": "2025-05-31T07:00:00",
+      "vibration": 0.20139,
+      "strain": 428.923,
+      "temperature": 26.622,
+      "displacement": 3.218
+    },
+    {
+      "t": "2025-05-31T14:00:00",
+      "vibration": 0.21141,
+      "strain": 374.787,
+      "temperature": 26.28,
+      "displacement": 2.5364
+    },
+    {
+      "t": "2025-05-31T21:00:00",
+      "vibration": 0.16891,
+      "strain": 389.979,
+      "temperature": 18.312,
+      "displacement": 2.8831
+    },
+    {
+      "t": "2025-06-01T04:00:00",
+      "vibration": 0.18791,
+      "strain": 328.634,
+      "temperature": 21.633,
+      "displacement": 2.665
+    },
+    {
+      "t": "2025-06-01T11:00:00",
+      "vibration": 0.19629,
+      "strain": 406.249,
+      "temperature": 27.407,
+      "displacement": 2.5634
+    },
+    {
+      "t": "2025-06-01T18:00:00",
+      "vibration": 0.26746,
+      "strain": 496.806,
+      "temperature": 23.052,
+      "displacement": 3.4542
+    },
+    {
+      "t": "2025-06-02T01:00:00",
+      "vibration": 0.14485,
+      "strain": 366.61,
+      "temperature": 17.279,
+      "displacement": 2.4231
+    },
+    {
+      "t": "2025-06-02T08:00:00",
+      "vibration": 0.2343,
+      "strain": 439.699,
+      "temperature": 25.733,
+      "displacement": 3.395
+    },
+    {
+      "t": "2025-06-02T15:00:00",
+      "vibration": 0.21593,
+      "strain": 410.219,
+      "temperature": 27.633,
+      "displacement": 2.5224
+    },
+    {
+      "t": "2025-06-02T22:00:00",
+      "vibration": 0.17613,
+      "strain": 357.079,
+      "temperature": 18.402,
+      "displacement": 2.3659
+    },
+    {
+      "t": "2025-06-03T05:00:00",
+      "vibration": 0.18267,
+      "strain": 393.14,
+      "temperature": 22.043,
+      "displacement": 2.2885
+    },
+    {
+      "t": "2025-06-03T12:00:00",
+      "vibration": 0.18637,
+      "strain": 402.728,
+      "temperature": 27.603,
+      "displacement": 2.4398
+    },
+    {
+      "t": "2025-06-03T19:00:00",
+      "vibration": 0.21401,
+      "strain": 474.895,
+      "temperature": 21.207,
+      "displacement": 3.1588
+    },
+    {
+      "t": "2025-06-04T03:00:00",
+      "vibration": 0.18659,
+      "strain": 297.68,
+      "temperature": 16.997,
+      "displacement": 2.6165
+    },
+    {
+      "t": "2025-06-04T10:00:00",
+      "vibration": 0.28042,
+      "strain": 436.268,
+      "temperature": 27.693,
+      "displacement": 2.9773
+    },
+    {
+      "t": "2025-06-04T17:00:00",
+      "vibration": 0.23798,
+      "strain": 476.024,
+      "temperature": 24.361,
+      "displacement": 3.7223
+    },
+    {
+      "t": "2025-06-05T00:00:00",
+      "vibration": 0.16923,
+      "strain": 339.992,
+      "temperature": 16.615,
+      "displacement": 2.6307
+    },
+    {
+      "t": "2025-06-05T07:00:00",
+      "vibration": 0.24459,
+      "strain": 488.477,
+      "temperature": 24.871,
+      "displacement": 2.5669
+    },
+    {
+      "t": "2025-06-05T14:00:00",
+      "vibration": 0.23341,
+      "strain": 371.894,
+      "temperature": 27.84,
+      "displacement": 2.5421
+    },
+    {
+      "t": "2025-06-05T21:00:00",
+      "vibration": 0.21729,
+      "strain": 402.252,
+      "temperature": 17.407,
+      "displacement": 2.4985
+    },
+    {
+      "t": "2025-06-06T04:00:00",
+      "vibration": 0.17055,
+      "strain": 378.157,
+      "temperature": 18.533,
+      "displacement": 2.4735
+    },
+    {
+      "t": "2025-06-06T11:00:00",
+      "vibration": 0.22818,
+      "strain": 357.081,
+      "temperature": 27.605,
+      "displacement": 2.4751
+    },
+    {
+      "t": "2025-06-06T18:00:00",
+      "vibration": 0.23074,
+      "strain": 470.018,
+      "temperature": 22.769,
+      "displacement": 3.3837
+    },
+    {
+      "t": "2025-06-07T01:00:00",
+      "vibration": 0.20855,
+      "strain": 322.358,
+      "temperature": 17.355,
+      "displacement": 2.2554
+    },
+    {
+      "t": "2025-06-07T08:00:00",
+      "vibration": 0.2535,
+      "strain": 426.718,
+      "temperature": 24.162,
+      "displacement": 2.8675
+    },
+    {
+      "t": "2025-06-07T15:00:00",
+      "vibration": 0.17997,
+      "strain": 395.577,
+      "temperature": 28.115,
+      "displacement": 2.468
+    },
+    {
+      "t": "2025-06-07T22:00:00",
+      "vibration": 0.16738,
+      "strain": 353.169,
+      "temperature": 16.482,
+      "displacement": 2.1069
+    },
+    {
+      "t": "2025-06-08T05:00:00",
+      "vibration": 0.19973,
+      "strain": 366.798,
+      "temperature": 19.274,
+      "displacement": 2.2295
+    },
+    {
+      "t": "2025-06-08T12:00:00",
+      "vibration": 0.18035,
+      "strain": 364.158,
+      "temperature": 29.273,
+      "displacement": 2.3777
+    },
+    {
+      "t": "2025-06-08T19:00:00",
+      "vibration": 0.24559,
+      "strain": 480.277,
+      "temperature": 20.175,
+      "displacement": 3.212
+    },
+    {
+      "t": "2025-06-09T02:00:00",
+      "vibration": 0.18558,
+      "strain": 363.054,
+      "temperature": 18.612,
+      "displacement": 2.0125
+    },
+    {
+      "t": "2025-06-09T09:00:00",
+      "vibration": 0.22181,
+      "strain": 446.422,
+      "temperature": 25.872,
+      "displacement": 2.8883
+    },
+    {
+      "t": "2025-06-09T16:00:00",
+      "vibration": 0.24128,
+      "strain": 470.125,
+      "temperature": 24.723,
+      "displacement": 2.6389
+    },
+    {
+      "t": "2025-06-09T23:00:00",
+      "vibration": 0.20363,
+      "strain": 365.444,
+      "temperature": 15.937,
+      "displacement": 2.3084
+    },
+    {
+      "t": "2025-06-10T06:00:00",
+      "vibration": 0.25466,
+      "strain": 404.545,
+      "temperature": 21.664,
+      "displacement": 2.4427
+    },
+    {
+      "t": "2025-06-10T13:00:00",
+      "vibration": 0.16347,
+      "strain": 363.489,
+      "temperature": 27.155,
+      "displacement": 2.7042
+    },
+    {
+      "t": "2025-06-10T20:00:00",
+      "vibration": 0.1942,
+      "strain": 428.24,
+      "temperature": 17.319,
+      "displacement": 2.6086
+    },
+    {
+      "t": "2025-06-11T03:00:00",
+      "vibration": 0.16761,
+      "strain": 353.193,
+      "temperature": 19.372,
+      "displacement": 2.5161
+    },
+    {
+      "t": "2025-06-11T10:00:00",
+      "vibration": 0.25871,
+      "strain": 444.741,
+      "temperature": 25.279,
+      "displacement": 2.7829
+    },
+    {
+      "t": "2025-06-11T17:00:00",
+      "vibration": 0.24344,
+      "strain": 471.478,
+      "temperature": 24.858,
+      "displacement": 3.214
+    },
+    {
+      "t": "2025-06-12T00:00:00",
+      "vibration": 0.12303,
+      "strain": 357.555,
+      "temperature": 15.142,
+      "displacement": 2.0917
+    },
+    {
+      "t": "2025-06-12T07:00:00",
+      "vibration": 0.25231,
+      "strain": 410.688,
+      "temperature": 21.091,
+      "displacement": 2.7003
+    },
+    {
+      "t": "2025-06-12T14:00:00",
+      "vibration": 0.19468,
+      "strain": 369.46,
+      "temperature": 24.825,
+      "displacement": 2.2165
+    },
+    {
+      "t": "2025-06-12T21:00:00",
+      "vibration": 0.18352,
+      "strain": 399.005,
+      "temperature": 15.417,
+      "displacement": 2.4269
+    },
+    {
+      "t": "2025-06-13T05:00:00",
+      "vibration": 0.23141,
+      "strain": 352.058,
+      "temperature": 18.96,
+      "displacement": 2.9343
+    },
+    {
+      "t": "2025-06-13T12:00:00",
+      "vibration": 0.19865,
+      "strain": 314.305,
+      "temperature": 27.309,
+      "displacement": 2.3492
+    },
+    {
+      "t": "2025-06-13T19:00:00",
+      "vibration": 0.23493,
+      "strain": 391.224,
+      "temperature": 20.647,
+      "displacement": 2.5613
+    },
+    {
+      "t": "2025-06-14T02:00:00",
+      "vibration": 0.19468,
+      "strain": 343.133,
+      "temperature": 16.017,
+      "displacement": 2.8157
+    },
+    {
+      "t": "2025-06-14T09:00:00",
+      "vibration": 0.22692,
+      "strain": 477.544,
+      "temperature": 25.313,
+      "displacement": 3.2278
+    },
+    {
+      "t": "2025-06-14T16:00:00",
+      "vibration": 0.22959,
+      "strain": 415.79,
+      "temperature": 24.052,
+      "displacement": 2.3538
+    },
+    {
+      "t": "2025-06-14T23:00:00",
+      "vibration": 0.20783,
+      "strain": 357.357,
+      "temperature": 14.341,
+      "displacement": 2.0742
+    },
+    {
+      "t": "2025-06-15T06:00:00",
+      "vibration": 0.22989,
+      "strain": 441.137,
+      "temperature": 19.773,
+      "displacement": 2.7895
+    },
+    {
+      "t": "2025-06-15T13:00:00",
+      "vibration": 0.19127,
+      "strain": 434.588,
+      "temperature": 28.804,
+      "displacement": 2.2079
+    },
+    {
+      "t": "2025-06-15T20:00:00",
+      "vibration": 0.20108,
+      "strain": 426.265,
+      "temperature": 18.36,
+      "displacement": 2.5753
+    },
+    {
+      "t": "2025-06-16T03:00:00",
+      "vibration": 0.19195,
+      "strain": 308.839,
+      "temperature": 17.088,
+      "displacement": 2.2342
+    },
+    {
+      "t": "2025-06-16T10:00:00",
+      "vibration": 0.22149,
+      "strain": 403.532,
+      "temperature": 26.721,
+      "displacement": 2.4071
+    }
+  ]
+}
