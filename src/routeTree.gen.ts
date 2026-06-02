@@ -9,11 +9,17 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as XaiRouteImport } from './routes/xai'
 import { Route as DamageRouteImport } from './routes/damage'
 import { Route as AnomalyRouteImport } from './routes/anomaly'
 import { Route as AnalysisRouteImport } from './routes/analysis'
 import { Route as IndexRouteImport } from './routes/index'
 
+const XaiRoute = XaiRouteImport.update({
+  id: '/xai',
+  path: '/xai',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DamageRoute = DamageRouteImport.update({
   id: '/damage',
   path: '/damage',
@@ -40,12 +46,14 @@ export interface FileRoutesByFullPath {
   '/analysis': typeof AnalysisRoute
   '/anomaly': typeof AnomalyRoute
   '/damage': typeof DamageRoute
+  '/xai': typeof XaiRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/analysis': typeof AnalysisRoute
   '/anomaly': typeof AnomalyRoute
   '/damage': typeof DamageRoute
+  '/xai': typeof XaiRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -53,13 +61,14 @@ export interface FileRoutesById {
   '/analysis': typeof AnalysisRoute
   '/anomaly': typeof AnomalyRoute
   '/damage': typeof DamageRoute
+  '/xai': typeof XaiRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/analysis' | '/anomaly' | '/damage'
+  fullPaths: '/' | '/analysis' | '/anomaly' | '/damage' | '/xai'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/analysis' | '/anomaly' | '/damage'
-  id: '__root__' | '/' | '/analysis' | '/anomaly' | '/damage'
+  to: '/' | '/analysis' | '/anomaly' | '/damage' | '/xai'
+  id: '__root__' | '/' | '/analysis' | '/anomaly' | '/damage' | '/xai'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -67,10 +76,18 @@ export interface RootRouteChildren {
   AnalysisRoute: typeof AnalysisRoute
   AnomalyRoute: typeof AnomalyRoute
   DamageRoute: typeof DamageRoute
+  XaiRoute: typeof XaiRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/xai': {
+      id: '/xai'
+      path: '/xai'
+      fullPath: '/xai'
+      preLoaderRoute: typeof XaiRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/damage': {
       id: '/damage'
       path: '/damage'
@@ -107,7 +124,18 @@ const rootRouteChildren: RootRouteChildren = {
   AnalysisRoute: AnalysisRoute,
   AnomalyRoute: AnomalyRoute,
   DamageRoute: DamageRoute,
+  XaiRoute: XaiRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { startInstance } from './start.ts'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+    config: Awaited<ReturnType<typeof startInstance.getOptions>>
+  }
+}
