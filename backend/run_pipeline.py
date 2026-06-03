@@ -8,6 +8,7 @@ Real ML pipeline. Reads datasets/*.csv, runs:
   - Dynamic maintenance recommendations
 Writes everything into src/data/*.json so the React app renders REAL outputs.
 """
+
 import json
 from pathlib import Path
 import numpy as np
@@ -19,18 +20,71 @@ from sklearn.metrics import (
 from sklearn.model_selection import train_test_split
 import xgboost as xgb
 import shap
+import math
 
 OUT = Path("src/data"); OUT.mkdir(parents=True, exist_ok=True)
-FEATURES = ["vibration_g", "strain_microstrain", "temperature_c", "displacement_mm"]
+FEATURES = [
+    "Vibration_ms2",
+    "Strain_microstrain",
+    "Temperature_C",
+    "Displacement_mm",
+    "Modal_Frequency_Hz",
+    "Fatigue_Accumulation_au",
+    "Corrosion_Level_percent",
+    "Structural_Health_Index_SHI"
+]
 CLASS_NAMES = ["Healthy", "Minor Damage", "Moderate Damage", "Severe Damage"]
 
+def sanitize(obj):
+    if isinstance(obj, float):
+        if math.isnan(obj) or math.isinf(obj):
+            return None
+        return obj
+
+    if isinstance(obj, dict):
+        return {k: sanitize(v) for k, v in obj.items()}
+
+    if isinstance(obj, list):
+        return [sanitize(v) for v in obj]
+
+    return obj
+
+
 def write(name, obj):
-    (OUT / name).write_text(json.dumps(obj, default=float, indent=2))
+    obj = sanitize(obj)
+
+    (OUT / name).write_text(
+        json.dumps(
+            obj,
+            indent=2,
+            allow_nan=False
+        )
+    )
+
     print("wrote", name)
 
 # ---------- Load ----------
-df = pd.read_csv("datasets/structure_data.csv", parse_dates=["timestamp"])
+df = pd.read_csv(
+    "datasets/structure_data.csv",
+    parse_dates=["Timestamp"]
+)
 df_clean = df.dropna(subset=FEATURES).reset_index(drop=True)
+
+def classify_damage(pof):
+    if pof < 0.25:
+        return 0
+    elif pof < 0.50:
+        return 1
+    elif pof < 0.75:
+        return 2
+    else:
+        return 3
+
+df_clean["damage_class"] = (
+    df_clean["Probability_of_Failure_PoF"]
+    .apply(classify_damage)
+)
+
 print("rows:", len(df), "after dropna:", len(df_clean))
 
 # ---------- Data analysis ----------
@@ -50,7 +104,7 @@ for f in FEATURES:
     }
 corr = df_clean[FEATURES].corr().round(4).values.tolist()
 preview = df_clean.head(15).copy()
-preview["timestamp"] = preview["timestamp"].astype(str)
+preview["Timestamp"] = preview["Timestamp"].astype(str)
 write("analysis.json", {
     "features": FEATURES,
     "missing_values": missing,
@@ -73,11 +127,12 @@ n_anom = int(labels.sum())
 step = max(1, len(df_clean) // 800)
 ts_idx = list(range(0, len(df_clean), step))
 anom_series = [{
-    "t": df_clean["timestamp"].iloc[i].isoformat(),
-    "vibration": float(df_clean["vibration_g"].iloc[i]),
-    "strain": float(df_clean["strain_microstrain"].iloc[i]),
-    "temperature": float(df_clean["temperature_c"].iloc[i]),
-    "displacement": float(df_clean["displacement_mm"].iloc[i]),
+    "t": df_clean["Timestamp"].iloc[i].isoformat(),
+    "vibration": float(df_clean["Vibration_ms2"].iloc[i]),
+    "strain": float(df_clean["Strain_microstrain"].iloc[i]),
+    "temperature": float(df_clean["Temperature_C"].iloc[i]),
+    "displacement": float(df_clean["Displacement_mm"].iloc[i]),
+
     "score": float(scores[i]),
     "anomaly": int(labels[i]),
 } for i in ts_idx]
@@ -193,7 +248,12 @@ deviation_norm = float(min(1.0, z / 3.0))
 
 # Weighted health score
 penalty = 100 * (0.35 * anom_recent_rate + 0.45 * damage_prob_unhealthy + 0.20 * deviation_norm)
-health_score = float(max(0.0, min(100.0, 100.0 - penalty)))
+health_score = float(
+    df_clean["Structural_Health_Index_SHI"]
+    .tail(200)
+    .mean()
+)
+
 if health_score >= 80:
     risk = "Low"
 elif health_score >= 60:
@@ -211,7 +271,7 @@ for i in range(0, len(df_clean), trend_step):
     s = scores[i]
     # simple rolling health proxy
     h = 100 - 100 * (0.5 * p + 0.5 * max(0, -s))
-    trend.append({"t": df_clean["timestamp"].iloc[i].isoformat(), "health": float(max(0, min(100, h)))})
+    trend.append({"t": df_clean["Timestamp"].iloc[i].isoformat(), "health": float(max(0, min(100, h)))})
 
 write("health.json", {
     "health_score": health_score,
@@ -285,11 +345,12 @@ ds_step = max(1, len(df_clean) // 500)
 series = []
 for i in range(0, len(df_clean), ds_step):
     series.append({
-        "t": df_clean["timestamp"].iloc[i].isoformat(),
-        "vibration": float(df_clean["vibration_g"].iloc[i]),
-        "strain": float(df_clean["strain_microstrain"].iloc[i]),
-        "temperature": float(df_clean["temperature_c"].iloc[i]),
-        "displacement": float(df_clean["displacement_mm"].iloc[i]),
+        "t": df_clean["Timestamp"].iloc[i].isoformat(),
+        "vibration": float(df_clean["Vibration_ms2"].iloc[i]),
+        "strain": float(df_clean["Strain_microstrain"].iloc[i]),
+        "temperature": float(df_clean["Temperature_C"].iloc[i]),
+        "displacement": float(df_clean["Displacement_mm"].iloc[i]),
+
     })
 write("series.json", {"series": series})
 
