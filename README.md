@@ -299,15 +299,6 @@ The project uses a real Structural Health Monitoring dataset.
 
 No synthetic data generation is required.
 
-The file:
-
-```text
-backend/generate_dataset.py
-```
-
-is no longer used and can be ignored.
-
-The primary execution file is:
 
 ```text
 backend/run_pipeline.py
